@@ -8,6 +8,7 @@ https://github.com/lucianosb/awesome-comfyui
 - https://github.com/comfyanonymous/ComfyUI
 - https://github.com/Nuked88/ComfyUI-N-Sidebar
 - https://github.com/AIFSH/ComfyUI-Hallo
+- https://github.com/TMElyralab/Comfyui-MusePose
 - https://github.com/ArtVentureX/comfyui-animatediff
 - https://github.com/Yujun-Shi/DragDiffusion
 
