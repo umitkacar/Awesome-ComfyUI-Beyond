@@ -15,6 +15,7 @@ https://github.com/lucianosb/awesome-comfyui
 
 ## LEARNING
 - https://comfyanonymous.github.io/ComfyUI_tutorial_vn/
+- https://docs.comfy.org/get_started/introduction
 
 ## APPLE
 - https://github.com/apple/ml-4m/
