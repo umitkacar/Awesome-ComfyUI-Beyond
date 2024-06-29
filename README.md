@@ -27,3 +27,6 @@ https://github.com/lucianosb/awesome-comfyui
 ## DEPTH
 - https://depth-anything-v2.github.io/
 - https://github.com/DepthAnything/Depth-Anything-V2
+
+## GANs
+- https://github.com/thanhluantrinh/LDDGAN
