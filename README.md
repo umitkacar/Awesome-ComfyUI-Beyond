@@ -7,6 +7,9 @@ https://github.com/lucianosb/awesome-comfyui
 ## PROJECTS
 - https://github.com/comfyanonymous/ComfyUI
 - https://github.com/ArtVentureX/comfyui-animatediff
+- https://github.com/Yujun-Shi/DragDiffusion
+
+## WEB
 - https://learn.thinkdiffusion.com/
 - https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/
 
