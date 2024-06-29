@@ -12,3 +12,14 @@ https://github.com/lucianosb/awesome-comfyui
 
 ## LEARNING
 - https://comfyanonymous.github.io/ComfyUI_tutorial_vn/
+
+## APPLE
+- https://github.com/apple/ml-4m/
+- https://4m.epfl.ch/
+
+## FACE
+- https://github.com/facefusion/facefusion
+
+## DEPTH
+- https://depth-anything-v2.github.io/
+- https://github.com/DepthAnything/Depth-Anything-V2
