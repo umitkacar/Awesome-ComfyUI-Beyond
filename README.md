@@ -1,7 +1,7 @@
 # awesome-comfyui-beyond
 Stable Diffusion - ComfyUI
 
-# Stable Diffusion Models
+## Stable Diffusion Models
 
 This repository provides download links for various Stable Diffusion models, categorized for ease of access. Below is a table that categorizes models into SDXL, SD1.5, SD2, Anime Styles, unCLIP, VAE, Loras, T2I-Adapter, ControlNet, GLIGEN, and ESRGAN upscale models.
 
