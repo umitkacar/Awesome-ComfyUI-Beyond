@@ -10,6 +10,7 @@ This repository provides download links for various Stable Diffusion models, cat
 | Category           | Model Name                      | Download Link                                                                                                      |
 |--------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **SDXL**           | SDXL Base Model                 | [Download](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)|
+|                    | DreamShaper Lightning XL        | [Download](https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors)
 |                    | SDXL Refiner Model              | [Download](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors)|
 |                    | SDXL VAE File                   | [Download](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)|
 |                    | SDXL Turbo Model                | [Download](https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sdxl-turbo.safetensors)                        |
@@ -63,35 +64,6 @@ This repository provides download links for various Stable Diffusion models, cat
 |                    | DreamBooth Custom Model         | [Download](https://huggingface.co/dreambooth/custom-model/resolve/main/dreambooth-custom-model.safetensors)        |
 
 
-| Category           | Model Name                      | Download Link                                                                                                      |
-|--------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **SDXL**           | DreamShaper Lightning XL        | [Download](https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/dreamshaper-xl-lightning.safetensors)|
-|                    | Juggernaut XL                   | [Download](https://civitai.com/models/133005?modelVersionId=357609/resolve/main/juggernaut-xl.safetensors)        |
-|                    | BonoboXL                        | [Download](https://civitai.com/models/209846?modelVersionId=361788/resolve/main/bonoboxl.safetensors)              |
-|                    | Pony Diffusion                  | [Download](https://civitai.com/models/257749/pony-diffusion-v6-xl/resolve/main/pony-diffusion-v6-xl.safetensors)  |
-|                    | ReV Animated                    | [Download](https://civitai.com/models/116456/rev-animated/resolve/main/rev-animated.safetensors)                   |
-|                    | CyberRealistic                  | [Download](https://civitai.com/models/117654/cyberrealistic/resolve/main/cyberrealistic.safetensors)               |
-|                    | DucHaiten-AIart-SDXL            | [Download](https://civitai.com/models/128456/duchaiten-aiart-sdxl/resolve/main/duchaiten-aiart-sdxl.safetensors)   |
-|                    | RealCartoon3D                   | [Download](https://civitai.com/models/136789/realcartoon3d/resolve/main/realcartoon3d.safetensors)                 |
-|                    | Absolute Reality                | [Download](https://civitai.com/models/120789/absolute-reality/resolve/main/absolute-reality.safetensors)           |
-|                    | majicMIX Realistic              | [Download](https://civitai.com/models/112345/majicmix-realistic/resolve/main/majicmix-realistic.safetensors)       |
-|                    | Cheese Daddy’s Landscape Mix    | [Download](https://civitai.com/models/143567/cheese-daddys-landscape-mix/resolve/main/cheese-daddys-landscape-mix.safetensors)|
-|                    | Monster Diffusion SDXL          | [Download](https://civitai.com/models/149876/monster-diffusion-sdxl/resolve/main/monster-diffusion-sdxl.safetensors)|
-| **Anime Styles**   | Kenshi                          | [Download](https://civitai.com/models/150123/kenshi/resolve/main/kenshi.safetensors)                               |
-|                    | Flat-2D Animerge                | [Download](https://civitai.com/models/156789/flat-2d-animerge/resolve/main/flat-2d-animerge.safetensors)           |
-|                    | Counterfeit-V2.5                | [Download](https://civitai.com/models/160345/counterfeit-v2-5/resolve/main/counterfeit-v2-5.safetensors)           |
-|                    | GhostMix                        | [Download](https://civitai.com/models/170234/ghostmix/resolve/main/ghostmix.safetensors)                           |
-|                    | Protogen                        | [Download](https://civitai.com/models/178901/protogen/resolve/main/protogen.safetensors)                           |
-| **Specialized Themes** | epiCRealism                | [Download](https://civitai.com/models/185678/epicrealism/resolve/main/epicrealism.safetensors)                     |
-|                    | XSarchitectural                 | [Download](https://civitai.com/models/192345/xsarchitectural/resolve/main/xsarchitectural.safetensors)             |
-|                    | Elldreths Retro Mix             | [Download](https://civitai.com/models/198901/elldreths-retro-mix/resolve/main/elldreths-retro-mix.safetensors)     |
-|                    | Modelshoot                      | [Download](https://civitai.com/models/204567/modelshoot/resolve/main/modelshoot.safetensors)                       |
-| **Versatile and Creative** | NeverEnding Dream      | [Download](https://civitai.com/models/210789/neverending-dream/resolve/main/neverending-dream.safetensors)         |
-|                    | Anything V3                     | [Download](https://civitai.com/models/220345/anything-v3/resolve/main/anything-v3.safetensors)                     |
-|                    | MeinaMix                        | [Download](https://civitai.com/models/230123/meinamix/resolve/main/meinamix.safetensors)                           |
-|                    | AbyssOrangeMix3 (AOM3)          | [Download](https://civitai.com/models/240567/abyssorangemix3/resolve/main/abyssorangemix3.safetensors)             |
-|                    | OpenJourney                     | [Download](https://civitai.com/models/250789/openjourney/resolve/main/openjourney.safetensors)                     |
-|                    | Henmix_Real                     | [Download](https://civitai.com/models/260345/henmix-real/resolve/main/henmix-real.safetensors)   
 
 ## AWESOME
 https://github.com/lucianosb/awesome-comfyui
