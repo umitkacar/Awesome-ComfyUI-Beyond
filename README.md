@@ -35,7 +35,7 @@ This repository provides download links for various Stable Diffusion models, cat
 |                    | Openpose SD14v1                 | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_openpose_sd14v1.pth)        |
 |                    | Color SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_color_sd14v1.pth)           |
 |                    | Canny SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_canny_sd14v1.pth)           |
-|                    | Style SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_style_sd14v1.pth)           |
+|                    | Style SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_style_sd14v1.pth)           |                                                                |
 | **ControlNet**     | ControlNet SD15 IP2P            | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors)|
 |                    | ControlNet SD15 Shuffle         | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_shuffle_fp16.safetensors)|
 |                    | ControlNet SD15 Canny           | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors)|
@@ -45,6 +45,22 @@ This repository provides download links for various Stable Diffusion models, cat
 |                    | ControlNet SD15 MLSD            | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_mlsd_fp16.safetensors)|
 |                    | ControlNet SD15 Normalbae       | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_normalbae_fp16.safetensors)|
 |                    | ControlNet SD15 Openpose        | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors)|
+|                    | ControlNet SD15 Scribble        | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors)|
+|                    | ControlNet SD15 Seg             | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_seg_fp16.safetensors)|
+|                    | ControlNet SD15 Softedge        | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors)|
+|                    | ControlNet SD15 Lineart Anime   | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.safetensors)|
+|                    | ControlNet SD15 Tile            | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors)|
+| **ControlNet SDXL**| ControlNet SDXL Canny           | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors)|
+|                    | ControlNet SDXL Depth           | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors)|
+|                    | ControlNet SDXL Recolor         | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-recolor-rank256.safetensors)|
+|                    | ControlNet SDXL Sketch          | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-sketch-rank256.safetensors)|
+| **ControlNet Preprocessor Nodes** | Fannovel16 ControlNet Preprocessors | [Download](https://github.com/Fannovel16/comfy_controlnet_preprocessors) |
+| **GLIGEN**         | GLIGEN Text-Image Model         | [Download](https://huggingface.co/gligen/gligen-text-image/resolve/main/gligen-text-image.safetensors)             |
+|                    | GLIGEN Object Detection Model   | [Download](https://huggingface.co/gligen/gligen-object-detection/resolve/main/gligen-object-detection.safetensors) |
+| **ESRGAN**         | ESRGAN 4x Upscale               | [Download](https://huggingface.co/esrgan/4x-upscale/resolve/main/4x-upscale.safetensors)                           |
+|                    | ESRGAN 8x Upscale               | [Download](https://huggingface.co/esrgan/8x-upscale/resolve/main/8x-upscale.safetensors)                           |
+| **Miscellaneous**  | Stable Diffusion ReV Animation  | [Download](https://huggingface.co/rev/animation/resolve/main/rev-animation.safetensors)                            |
+|                    | DreamBooth Custom Model         | [Download](https://huggingface.co/dreambooth/custom-model/resolve/main/dreambooth-custom-model.safetensors)        |
 
 
 
