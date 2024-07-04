@@ -63,8 +63,6 @@ This repository provides download links for various Stable Diffusion models, cat
 | **Miscellaneous**  | Stable Diffusion ReV Animation  | [Download](https://huggingface.co/rev/animation/resolve/main/rev-animation.safetensors)                            |
 |                    | DreamBooth Custom Model         | [Download](https://huggingface.co/dreambooth/custom-model/resolve/main/dreambooth-custom-model.safetensors)        |
 
-
-
 ## AWESOME
 https://github.com/lucianosb/awesome-comfyui
 
