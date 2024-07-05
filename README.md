@@ -68,7 +68,9 @@ https://github.com/lucianosb/awesome-comfyui
 
 ## TENSORRT
 
-https://github.com/comfyanonymous/ComfyUI_TensorRT
+- https://github.com/comfyanonymous/ComfyUI_TensorRT
+- https://github.com/gameltb/ComfyUI_stable_fast
+
 
 ## EXTRA MODELS
 
