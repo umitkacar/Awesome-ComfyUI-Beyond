@@ -1,5 +1,44 @@
-# awesome-comfyui-beyond
-Stable Diffusion - ComfyUI
+# AWESOME COMFYUI BEYOND
+- https://github.com/lucianosb/awesome-comfyui
+
+## TENSORRT
+- https://github.com/comfyanonymous/ComfyUI_TensorRT
+- https://github.com/gameltb/ComfyUI_stable_fast
+
+## EXTRA MODELS
+- https://github.com/city96/ComfyUI_ExtraModels
+
+## PROJECTS
+- https://github.com/comfyanonymous/ComfyUI
+- https://github.com/Nuked88/ComfyUI-N-Sidebar
+- https://github.com/AIFSH/ComfyUI-Hallo
+- https://github.com/TMElyralab/Comfyui-MusePose
+- https://github.com/ArtVentureX/comfyui-animatediff
+- https://github.com/Yujun-Shi/DragDiffusion
+- https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node
+
+## WEB
+- https://learn.thinkdiffusion.com/
+- https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/
+
+## LEARNING
+- https://comfyanonymous.github.io/ComfyUI_tutorial_vn/
+- https://docs.comfy.org/get_started/introduction
+- https://github.com/comfyanonymous/ComfyUI_Blog
+
+## APPLE
+- https://github.com/apple/ml-4m/
+- https://4m.epfl.ch/
+
+## FACE
+- https://github.com/facefusion/facefusion
+
+## DEPTH
+- https://depth-anything-v2.github.io/
+- https://github.com/DepthAnything/Depth-Anything-V2
+
+## GANs
+- https://github.com/thanhluantrinh/LDDGAN
 
 ## Stable Diffusion Models
 
@@ -62,47 +101,3 @@ This repository provides download links for various Stable Diffusion models, cat
 |                    | ESRGAN 8x Upscale               | [Download](https://huggingface.co/esrgan/8x-upscale/resolve/main/8x-upscale.safetensors)                           |
 | **Miscellaneous**  | Stable Diffusion ReV Animation  | [Download](https://huggingface.co/rev/animation/resolve/main/rev-animation.safetensors)                            |
 |                    | DreamBooth Custom Model         | [Download](https://huggingface.co/dreambooth/custom-model/resolve/main/dreambooth-custom-model.safetensors)        |
-
-## AWESOME
-https://github.com/lucianosb/awesome-comfyui
-
-## TENSORRT
-
-- https://github.com/comfyanonymous/ComfyUI_TensorRT
-- https://github.com/gameltb/ComfyUI_stable_fast
-
-
-## EXTRA MODELS
-
-https://github.com/city96/ComfyUI_ExtraModels
-
-## PROJECTS
-- https://github.com/comfyanonymous/ComfyUI
-- https://github.com/Nuked88/ComfyUI-N-Sidebar
-- https://github.com/AIFSH/ComfyUI-Hallo
-- https://github.com/TMElyralab/Comfyui-MusePose
-- https://github.com/ArtVentureX/comfyui-animatediff
-- https://github.com/Yujun-Shi/DragDiffusion
-- https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node
-
-## WEB
-- https://learn.thinkdiffusion.com/
-- https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/
-
-## LEARNING
-- https://comfyanonymous.github.io/ComfyUI_tutorial_vn/
-- https://docs.comfy.org/get_started/introduction
-
-## APPLE
-- https://github.com/apple/ml-4m/
-- https://4m.epfl.ch/
-
-## FACE
-- https://github.com/facefusion/facefusion
-
-## DEPTH
-- https://depth-anything-v2.github.io/
-- https://github.com/DepthAnything/Depth-Anything-V2
-
-## GANs
-- https://github.com/thanhluantrinh/LDDGAN
