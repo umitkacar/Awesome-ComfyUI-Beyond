@@ -66,6 +66,10 @@ This repository provides download links for various Stable Diffusion models, cat
 ## AWESOME
 https://github.com/lucianosb/awesome-comfyui
 
+## TENSORRT
+
+https://github.com/comfyanonymous/ComfyUI_TensorRT
+
 ## PROJECTS
 - https://github.com/comfyanonymous/ComfyUI
 - https://github.com/Nuked88/ComfyUI-N-Sidebar
