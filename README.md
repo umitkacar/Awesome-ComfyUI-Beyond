@@ -70,6 +70,10 @@ https://github.com/lucianosb/awesome-comfyui
 
 https://github.com/comfyanonymous/ComfyUI_TensorRT
 
+## EXTRA MODELS
+
+https://github.com/city96/ComfyUI_ExtraModels
+
 ## PROJECTS
 - https://github.com/comfyanonymous/ComfyUI
 - https://github.com/Nuked88/ComfyUI-N-Sidebar
