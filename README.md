@@ -81,6 +81,7 @@ https://github.com/city96/ComfyUI_ExtraModels
 - https://github.com/TMElyralab/Comfyui-MusePose
 - https://github.com/ArtVentureX/comfyui-animatediff
 - https://github.com/Yujun-Shi/DragDiffusion
+- https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node
 
 ## WEB
 - https://learn.thinkdiffusion.com/
