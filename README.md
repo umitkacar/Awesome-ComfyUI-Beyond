@@ -1,6 +1,9 @@
 # AWESOME COMFYUI BEYOND
 - https://github.com/lucianosb/awesome-comfyui
 
+## INTEGRATION
+- https://github.com/open-webui/open-webui
+
 ## TENSORRT
 - https://github.com/comfyanonymous/ComfyUI_TensorRT
 - https://github.com/gameltb/ComfyUI_stable_fast
