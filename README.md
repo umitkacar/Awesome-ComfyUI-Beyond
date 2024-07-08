@@ -11,8 +11,11 @@
 - https://github.com/spacepxl/ComfyUI-Florence-2
 - https://github.com/kijai/ComfyUI-Florence2
 
-## GANs
+## GANs
 - https://github.com/spacepxl/ComfyUI-StyleGan
+
+## SAM
+- https://github.com/storyicon/comfyui_segment_anything
 
 ## API TOOLS
 - https://github.com/BadCafeCode/apitools-comfyui
