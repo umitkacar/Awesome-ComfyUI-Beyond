@@ -8,6 +8,7 @@
 
 ## LLMs
 - https://github.com/spacepxl/ComfyUI-Florence-2
+- https://github.com/kijai/ComfyUI-Florence2
 
 ## GANs
 - https://github.com/spacepxl/ComfyUI-StyleGan
