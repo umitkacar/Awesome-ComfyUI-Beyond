@@ -1,5 +1,7 @@
 # AWESOME COMFYUI BEYOND
 - https://github.com/lucianosb/awesome-comfyui
+- https://github.com/Gourieff/comfyui-reactor-node
+- https://github.com/kijai/ComfyUI-LivePortraitKJ
 
 ## INTEGRATION
 - https://github.com/open-webui/open-webui
