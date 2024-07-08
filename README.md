@@ -54,6 +54,7 @@
 - https://fastcampus.com/en/products/data_online_comfyui (215 USD Dolar)
 - https://openart.ai/workflows/academy
 - https://openart.ai/workflows/templates
+- https://www.youtube.com/@OlivioSarikas/playlists
 
 ## APPLE
 - https://github.com/apple/ml-4m/
