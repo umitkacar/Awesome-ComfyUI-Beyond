@@ -2,6 +2,9 @@
 - https://github.com/lucianosb/awesome-comfyui
 - https://github.com/Gourieff/comfyui-reactor-node
 - https://github.com/kijai/ComfyUI-LivePortraitKJ
+- https://github.com/Acly/comfyui-tooling-nodes
+- https://github.com/Acly/comfyui-inpaint-nodes
+- https://github.com/BadCafeCode/masquerade-nodes-comfyui
 
 ## KRITA + SD
 - https://krita.org/ko/
