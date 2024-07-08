@@ -5,6 +5,7 @@
 - https://github.com/Acly/comfyui-tooling-nodes
 - https://github.com/Acly/comfyui-inpaint-nodes
 - https://github.com/BadCafeCode/masquerade-nodes-comfyui
+- https://github.com/melMass/comfy_mtb?tab=readme-ov-file
 
 ## LLMs
 - https://github.com/spacepxl/ComfyUI-Florence-2
