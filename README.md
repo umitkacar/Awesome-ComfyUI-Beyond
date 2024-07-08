@@ -47,6 +47,7 @@
 - https://docs.comfy.org/get_started/introduction
 - https://github.com/comfyanonymous/ComfyUI_Blog
 - https://fastcampus.com/en/products/data_online_comfyui (215 USD Dolar)
+- https://openart.ai/workflows/academy
 
 ## APPLE
 - https://github.com/apple/ml-4m/
