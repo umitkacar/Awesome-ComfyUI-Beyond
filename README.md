@@ -6,6 +6,9 @@
 - https://github.com/Acly/comfyui-inpaint-nodes
 - https://github.com/BadCafeCode/masquerade-nodes-comfyui
 
+## LLMs
+- https://github.com/spacepxl/ComfyUI-Florence-2
+
 ## API TOOLS
 - https://github.com/BadCafeCode/apitools-comfyui
 
