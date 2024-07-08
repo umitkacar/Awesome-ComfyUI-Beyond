@@ -6,6 +6,9 @@
 - https://github.com/Acly/comfyui-inpaint-nodes
 - https://github.com/BadCafeCode/masquerade-nodes-comfyui
 
+## API TOOLS
+- https://github.com/BadCafeCode/apitools-comfyui
+
 ## KRITA + SD
 - https://krita.org/ko/
 - https://github.com/Acly/krita-ai-diffusion
