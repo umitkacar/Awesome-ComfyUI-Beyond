@@ -9,6 +9,9 @@
 ## LLMs
 - https://github.com/spacepxl/ComfyUI-Florence-2
 
+## GANs
+- https://github.com/spacepxl/ComfyUI-StyleGan
+
 ## API TOOLS
 - https://github.com/BadCafeCode/apitools-comfyui
 
