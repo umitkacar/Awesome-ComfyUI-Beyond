@@ -45,6 +45,7 @@
 - https://github.com/ArtVentureX/comfyui-animatediff
 - https://github.com/Yujun-Shi/DragDiffusion
 - https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node
+- https://github.com/tencent/MimicMotion
 
 ## WEB
 - https://learn.thinkdiffusion.com/
