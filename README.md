@@ -7,6 +7,9 @@
 - https://github.com/BadCafeCode/masquerade-nodes-comfyui
 - https://github.com/melMass/comfy_mtb?tab=readme-ov-file
 
+## SUB-NODES
+- https://github.com/vivax3794/ComfyUI-Sub-Nodes
+
 ## LLMs
 - https://github.com/spacepxl/ComfyUI-Florence-2
 - https://github.com/kijai/ComfyUI-Florence2
