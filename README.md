@@ -1,18 +1,89 @@
 # AWESOME COMFYUI BEYOND
+
+> A curated collection of the best ComfyUI resources, custom nodes, workflows, and tools.
+> **Last Updated:** November 2024 (Major Update)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+## 📋 Table of Contents
+- [Essential - Install First](#-essential---install-first)
+- [New & Trending (2024-2025)](#-new--trending-2024-2025)
+- [Prompt & Image Tools](#-prompt--image-tools)
+- [LLMs & Vision Models](#-llms--vision-models)
+- [Learning Resources](#-learning-resources)
+- [Model Downloads](#-model-downloads)
+- [Projects & Integrations](#projects)
+
+## 🎯 ESSENTIAL - INSTALL FIRST!
+
+### ComfyUI Manager
+- https://github.com/Comfy-Org/ComfyUI-Manager - **MUST INSTALL FIRST!** Essential extension for managing custom nodes, models, and workflows
+- https://github.com/11cafe/comfyui-workspace-manager - Organize and manage all workflows, models, and images in one place with version control
+
+### Core Custom Nodes (Top Priority)
+- https://github.com/ltdrdata/ComfyUI-Manager - ComfyUI Manager (install first)
+- https://github.com/ltdrdata/ComfyUI-Impact-Pack - Image enhancement, face detailing, and segmentation
+- https://github.com/ltdrdata/ComfyUI-Inspire-Pack - Additional workflow enhancement tools
+- https://github.com/ltdrdata/was-node-suite-comfyui - WAS Node Suite (actively maintained fork) - Hundreds of essential nodes
+- https://github.com/cubiq/ComfyUI_IPAdapter_plus - IPAdapter Plus for reference image guidance and style transfer
+- https://github.com/jags111/efficiency-nodes-comfyui - Efficiency Nodes for streamlined workflows
+- https://github.com/melMass/comfy_mtb - MTB Nodes - Comprehensive node collection
+- https://github.com/pythongosssss/ComfyUI-Custom-Scripts - Essential quality-of-life improvements
+- https://github.com/cubiq/ComfyUI_essentials - Essential missing features for ComfyUI
+
+## 🚀 NEW & TRENDING (2024-2025)
+
+### Video Generation
+- https://github.com/kijai/ComfyUI-CogVideoXWrapper - CogVideoX text-to-video and image-to-video (Best I2V quality)
+- https://github.com/kijai/ComfyUI-MochiWrapper - Mochi 1 by Genmo (10B params, best T2V quality, 20GB VRAM)
+- https://github.com/logtd/ComfyUI-MochiEdit - Edit videos using Genmo Mochi
+- https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite - Essential video processing tools
+- https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved - AnimateDiff evolution with advanced features
+
+### Image Upscaling (2024)
+- https://github.com/kijai/ComfyUI-SUPIR - SUPIR upscaling (comparable to Magnific and Topaz)
+- https://github.com/alexisrolland/AuraSR-ComfyUI - AuraSR GAN-based upscaling with GigaGAN architecture
+- https://github.com/city96/ComfyUI_ExtraModels - Additional upscale and extra models support
+
+### Latest Model Support
+- **Flux.1** (2024) - Built-in support in ComfyUI with FluxGuidance and ModelSamplingFlux nodes
+- https://github.com/XLabs-AI/x-flux-comfyui - X-Flux ComfyUI integration with LoRA and ControlNet
+- https://github.com/cubiq/ComfyUI_IPAdapter_plus - Now includes Flux IPAdapter support
+- **Stable Diffusion 3 / 3.5** (2024) - Native support in ComfyUI (update required)
+
+### Modern Workflow Tools
+- https://github.com/crystian/ComfyUI-Crystools - Real-time CPU, GPU, and memory monitoring
+- https://github.com/chrisgoringe/cg-use-everywhere - Use Everywhere nodes for cleaner workflows
+- https://github.com/rgthree/rgthree-comfy - Power Prompt, Fast Groups, and workflow utilities
+
+## 🎨 ORIGINAL COLLECTION
 - https://github.com/lucianosb/awesome-comfyui
 - https://github.com/Gourieff/comfyui-reactor-node
 - https://github.com/kijai/ComfyUI-LivePortraitKJ
 - https://github.com/Acly/comfyui-tooling-nodes
 - https://github.com/Acly/comfyui-inpaint-nodes
 - https://github.com/BadCafeCode/masquerade-nodes-comfyui
-- https://github.com/melMass/comfy_mtb?tab=readme-ov-file
+
+## 🎨 PROMPT & IMAGE TOOLS
+
+### Prompt Engineering
+- https://github.com/ZHO-ZHO-ZHO/ComfyUI-SDXL-Prompt-Styler - SDXL Prompt Styler with pre-set styles
+- https://github.com/twri/sdxl_prompt_styler - Alternative SDXL style templates
+- https://github.com/shiimizu/ComfyUI-semantic-aware-guidance - Semantic-aware prompt guidance
+
+### Image Tagging & Analysis
+- https://github.com/pythongosssss/ComfyUI-WD14-Tagger - WD14 Tagger for analyzing images and suggesting prompts
+- https://github.com/SLAPaper/ComfyUI-Image-Selector - Advanced image selection and comparison
+- https://github.com/chflame163/ComfyUI_LayerStyle - Photoshop-like layer styling
 
 ## SUB-NODES
 - https://github.com/vivax3794/ComfyUI-Sub-Nodes
 
-## LLMs
-- https://github.com/spacepxl/ComfyUI-Florence-2
-- https://github.com/kijai/ComfyUI-Florence2
+## 🤖 LLMs & Vision Models
+- https://github.com/spacepxl/ComfyUI-Florence-2 - Microsoft Florence-2 vision model
+- https://github.com/kijai/ComfyUI-Florence2 - Alternative Florence-2 implementation
+- https://github.com/if-ai/ComfyUI-IF_AI_tools - LLM integration tools for ComfyUI
+- https://github.com/gokayfem/ComfyUI_VLM_nodes - Vision Language Model nodes
 
 ## GANs
 - https://github.com/spacepxl/ComfyUI-StyleGan
@@ -47,18 +118,29 @@
 - https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node
 - https://github.com/tencent/MimicMotion
 
-## WEB
-- https://learn.thinkdiffusion.com/
-- https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/
 
-## LEARNING
-- https://comfyanonymous.github.io/ComfyUI_tutorial_vn/
-- https://docs.comfy.org/get_started/introduction
-- https://github.com/comfyanonymous/ComfyUI_Blog
-- https://fastcampus.com/en/products/data_online_comfyui (215 USD Dolar)
-- https://openart.ai/workflows/academy
-- https://openart.ai/workflows/templates
-- https://www.youtube.com/@OlivioSarikas/playlists
+## 📚 LEARNING RESOURCES
+
+### Official Documentation
+- https://docs.comfy.org/get_started/introduction - Official ComfyUI Documentation (2024)
+- https://comfyanonymous.github.io/ComfyUI_tutorial_vn/ - Vietnamese Tutorial
+- https://github.com/comfyanonymous/ComfyUI_Blog - Official ComfyUI Blog
+
+### Workflow Libraries & Templates
+- https://openart.ai/workflows/academy - OpenArt Workflow Academy
+- https://openart.ai/workflows/templates - OpenArt Workflow Templates
+- https://comfyworkflows.com/ - Community workflow sharing platform
+- https://www.runcomfy.com/comfyui-workflows - 200+ Curated workflows with pre-configured nodes
+
+### Video Tutorials & Courses
+- https://www.youtube.com/@OlivioSarikas/playlists - Olivio Sarikas ComfyUI tutorials
+- https://learn.thinkdiffusion.com/ - ThinkDiffusion learning platform
+- https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/ - Video creation guide with ComfyUI
+- https://fastcampus.com/en/products/data_online_comfyui - FastCampus Course (215 USD)
+
+### Cloud Platforms
+- https://www.comflowy.com/ - Run ComfyUI workflows without setup, 100+ extensions pre-installed
+- https://www.runcomfy.com/ - Cloud ComfyUI with pre-configured nodes and models
 
 ## APPLE
 - https://github.com/apple/ml-4m/
@@ -74,9 +156,26 @@
 ## GANs
 - https://github.com/thanhluantrinh/LDDGAN
 
-## Stable Diffusion Models
+## 📦 MODEL DOWNLOADS
 
-This repository provides download links for various Stable Diffusion models, categorized for ease of access. Below is a table that categorizes models into SDXL, SD1.5, SD2, Anime Styles, unCLIP, VAE, Loras, T2I-Adapter, ControlNet, GLIGEN, and ESRGAN upscale models.
+### Latest Models (2024-2025)
+
+#### Flux.1 Models (2024) - Black Forest Labs
+| Model Name | Description | Download Link |
+|------------|-------------|---------------|
+| Flux.1 Dev | High quality guidance-distilled model | [Download](https://huggingface.co/black-forest-labs/FLUX.1-dev) |
+| Flux.1 Schnell | Fast step-distilled "Turbo" model | [Download](https://huggingface.co/black-forest-labs/FLUX.1-schnell) |
+
+#### Stable Diffusion 3 / 3.5 (2024) - Stability AI
+| Model Name | Description | Download Link |
+|------------|-------------|---------------|
+| SD3 Medium (with CLIP) | SD3 Medium with included CLIP models | [Download](https://huggingface.co/stabilityai/stable-diffusion-3-medium) |
+| SD3.5 Large | Latest SD3.5 large model (Oct 2024) | [Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) |
+| SD3.5 Medium | Latest SD3.5 medium model | [Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium) |
+
+### Classic Stable Diffusion Models
+
+This section provides download links for various Stable Diffusion models, categorized for ease of access. Below is a table that categorizes models into SDXL, SD1.5, SD2, Anime Styles, unCLIP, VAE, Loras, T2I-Adapter, ControlNet, GLIGEN, and ESRGAN upscale models.
 
 ## Models Table
 
@@ -135,3 +234,47 @@ This repository provides download links for various Stable Diffusion models, cat
 |                    | ESRGAN 8x Upscale               | [Download](https://huggingface.co/esrgan/8x-upscale/resolve/main/8x-upscale.safetensors)                           |
 | **Miscellaneous**  | Stable Diffusion ReV Animation  | [Download](https://huggingface.co/rev/animation/resolve/main/rev-animation.safetensors)                            |
 |                    | DreamBooth Custom Model         | [Download](https://huggingface.co/dreambooth/custom-model/resolve/main/dreambooth-custom-model.safetensors)        |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you know of any amazing ComfyUI resources that should be added to this list, please:
+
+1. Fork this repository
+2. Add your resource to the appropriate section
+3. Ensure the link is working and relevant
+4. Create a pull request with a clear description
+
+Please make sure your contribution:
+- Is related to ComfyUI
+- Includes a brief description
+- Has a working link
+- Fits into an existing category or suggests a new relevant one
+
+## 📝 Note on Model Links
+
+Some model links may require:
+- Hugging Face account and agreement to license terms
+- Civitai account for certain downloads
+- Sufficient disk space and VRAM for running models locally
+
+Always check system requirements before downloading large models.
+
+## 🔗 Other Awesome ComfyUI Resources
+
+- [ComfyUI Official Repository](https://github.com/comfyanonymous/ComfyUI) - The official ComfyUI project
+- [ComfyUI-Manager Registry](https://github.com/ltdrdata/ComfyUI-Manager) - Official custom node registry
+- [Awesome ComfyUI](https://github.com/lucianosb/awesome-comfyui) - Another comprehensive list
+- [ComfyUI Workflow](https://github.com/ComfyUI-Workflow/awesome-comfyui) - Workflow-focused collection
+
+## ⭐ Star History
+
+If you find this repository useful, please consider giving it a star! It helps others discover these resources.
+
+---
+
+**Last Major Update:** November 2024
+**Maintained by:** [umitkacar](https://github.com/umitkacar)
+
+*This is a living document. ComfyUI is rapidly evolving, and this list is kept updated with the latest and greatest resources.*
