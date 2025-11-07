@@ -1,280 +1,492 @@
 # AWESOME COMFYUI BEYOND
 
-> A curated collection of the best ComfyUI resources, custom nodes, workflows, and tools.
-> **Last Updated:** November 2024 (Major Update)
+> The ultimate curated collection of ComfyUI resources for 2024-2025. From cutting-edge video generation to 3D creation, this is your comprehensive guide to the ComfyUI ecosystem.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+**Last Updated:** November 2024 | **Maintained by:** [umitkacar](https://github.com/umitkacar)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/umitkacar/Awesome-ComfyUI-Beyond?style=social)
+
+---
 
 ## 📋 Table of Contents
-- [Essential - Install First](#-essential---install-first)
-- [New & Trending (2024-2025)](#-new--trending-2024-2025)
-- [Prompt & Image Tools](#-prompt--image-tools)
-- [LLMs & Vision Models](#-llms--vision-models)
-- [Learning Resources](#-learning-resources)
-- [Model Downloads](#-model-downloads)
-- [Projects & Integrations](#projects)
 
-## 🎯 ESSENTIAL - INSTALL FIRST!
+- [🚀 What's New in 2024-2025](#-whats-new-in-2024-2025)
+- [⚡ Essential Setup](#-essential-setup)
+- [🎬 Video Generation](#-video-generation)
+- [🎭 Face & Portrait](#-face--portrait)
+- [🎨 Image Enhancement](#-image-enhancement)
+- [🏗️ 3D Generation](#️-3d-generation)
+- [🔧 Workflow Tools](#-workflow-tools)
+- [📦 Model Support](#-model-support)
+- [🎓 Learning Resources](#-learning-resources)
+- [⭐ Top Community Resources](#-top-community-resources)
 
-### ComfyUI Manager
-- https://github.com/Comfy-Org/ComfyUI-Manager - **MUST INSTALL FIRST!** Essential extension for managing custom nodes, models, and workflows
-- https://github.com/11cafe/comfyui-workspace-manager - Organize and manage all workflows, models, and images in one place with version control
+---
 
-### Core Custom Nodes (Top Priority)
-- https://github.com/ltdrdata/ComfyUI-Manager - ComfyUI Manager (install first)
-- https://github.com/ltdrdata/ComfyUI-Impact-Pack - Image enhancement, face detailing, and segmentation
-- https://github.com/ltdrdata/ComfyUI-Inspire-Pack - Additional workflow enhancement tools
-- https://github.com/ltdrdata/was-node-suite-comfyui - WAS Node Suite (actively maintained fork) - Hundreds of essential nodes
-- https://github.com/cubiq/ComfyUI_IPAdapter_plus - IPAdapter Plus for reference image guidance and style transfer
-- https://github.com/jags111/efficiency-nodes-comfyui - Efficiency Nodes for streamlined workflows
-- https://github.com/melMass/comfy_mtb - MTB Nodes - Comprehensive node collection
-- https://github.com/pythongosssss/ComfyUI-Custom-Scripts - Essential quality-of-life improvements
-- https://github.com/cubiq/ComfyUI_essentials - Essential missing features for ComfyUI
+## 🚀 What's New in 2024-2025
 
-## 🚀 NEW & TRENDING (2024-2025)
+### ComfyUI V1 Desktop App (October 2024)
+The game-changing update that makes ComfyUI accessible to everyone:
+- ✅ **One-Click Installation** - No more Python environment headaches
+- ✅ **Model Library** - Browse and drag-drop models with ease
+- ✅ **Workflow Browser** - Save and manage workflows efficiently
+- ✅ **Automatic Updates** - Stay on the stable release track
+- ✅ **Custom Node Registry (CNR)** - 600+ nodes, 2000+ versions
 
-### Video Generation
-- https://github.com/kijai/ComfyUI-CogVideoXWrapper - CogVideoX text-to-video and image-to-video (Best I2V quality)
-- https://github.com/kijai/ComfyUI-MochiWrapper - Mochi 1 by Genmo (10B params, best T2V quality, 20GB VRAM)
-- https://github.com/logtd/ComfyUI-MochiEdit - Edit videos using Genmo Mochi
-- https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite - Essential video processing tools
-- https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved - AnimateDiff evolution with advanced features
+**Download:** [ComfyUI Desktop](https://www.comfy.org/download)
 
-### Image Upscaling (2024)
-- https://github.com/kijai/ComfyUI-SUPIR - SUPIR upscaling (comparable to Magnific and Topaz)
-- https://github.com/alexisrolland/AuraSR-ComfyUI - AuraSR GAN-based upscaling with GigaGAN architecture
-- https://github.com/city96/ComfyUI_ExtraModels - Additional upscale and extra models support
+### Major Breakthroughs
 
-### Latest Model Support
-- **Flux.1** (2024) - Built-in support in ComfyUI with FluxGuidance and ModelSamplingFlux nodes
-- https://github.com/XLabs-AI/x-flux-comfyui - X-Flux ComfyUI integration with LoRA and ControlNet
-- https://github.com/cubiq/ComfyUI_IPAdapter_plus - Now includes Flux IPAdapter support
-- **Stable Diffusion 3 / 3.5** (2024) - Native support in ComfyUI (update required)
+🎬 **Video Generation Revolution**
+- **HunyuanVideo** - Tencent's 13B parameter model (CVPR 2025)
+- **LTX Video** - First real-time video generation (24FPS, faster than playback!)
+- **Mochi** - Genmo's 10B model with best text-to-video quality
 
-### Modern Workflow Tools
-- https://github.com/crystian/ComfyUI-Crystools - Real-time CPU, GPU, and memory monitoring
-- https://github.com/chrisgoringe/cg-use-everywhere - Use Everywhere nodes for cleaner workflows
-- https://github.com/rgthree/rgthree-comfy - Power Prompt, Fast Groups, and workflow utilities
+🎨 **Next-Gen Image Models**
+- **Flux.1** - Black Forest Labs' breakthrough models (Dev & Schnell)
+- **Kolors** - Bilingual (Chinese/English) text-to-image excellence
+- **Stable Diffusion 3.5** - Latest from Stability (Oct 2024)
 
-## 🎨 ORIGINAL COLLECTION
-- https://github.com/lucianosb/awesome-comfyui
-- https://github.com/Gourieff/comfyui-reactor-node
-- https://github.com/kijai/ComfyUI-LivePortraitKJ
-- https://github.com/Acly/comfyui-tooling-nodes
-- https://github.com/Acly/comfyui-inpaint-nodes
-- https://github.com/BadCafeCode/masquerade-nodes-comfyui
+🏗️ **3D Content Creation**
+- **Trellis** - Unified 3D asset generation (Radiance Fields, Gaussians, Meshes)
+- **DepthCrafter** - Consistent video depth estimation (CVPR 2025 Highlight)
 
-## 🎨 PROMPT & IMAGE TOOLS
+---
 
-### Prompt Engineering
-- https://github.com/ZHO-ZHO-ZHO/ComfyUI-SDXL-Prompt-Styler - SDXL Prompt Styler with pre-set styles
-- https://github.com/twri/sdxl_prompt_styler - Alternative SDXL style templates
-- https://github.com/shiimizu/ComfyUI-semantic-aware-guidance - Semantic-aware prompt guidance
+## ⚡ Essential Setup
 
-### Image Tagging & Analysis
-- https://github.com/pythongosssss/ComfyUI-WD14-Tagger - WD14 Tagger for analyzing images and suggesting prompts
-- https://github.com/SLAPaper/ComfyUI-Image-Selector - Advanced image selection and comparison
-- https://github.com/chflame163/ComfyUI_LayerStyle - Photoshop-like layer styling
+### Must Install First!
 
-## SUB-NODES
-- https://github.com/vivax3794/ComfyUI-Sub-Nodes
+#### 1. ComfyUI Manager
+**The single most important extension**
+- https://github.com/Comfy-Org/ComfyUI-Manager
+- Install, update, and manage all custom nodes
+- Automatic dependency resolution
+- Model browser and downloader
 
-## 🤖 LLMs & Vision Models
-- https://github.com/spacepxl/ComfyUI-Florence-2 - Microsoft Florence-2 vision model
-- https://github.com/kijai/ComfyUI-Florence2 - Alternative Florence-2 implementation
-- https://github.com/if-ai/ComfyUI-IF_AI_tools - LLM integration tools for ComfyUI
-- https://github.com/gokayfem/ComfyUI_VLM_nodes - Vision Language Model nodes
+#### 2. Workspace Manager
+**Organize your creative chaos**
+- https://github.com/11cafe/comfyui-workspace-manager
+- Version control for workflows (git-like)
+- Manage workflows, models, and images
+- Sync across devices
 
-## GANs
-- https://github.com/spacepxl/ComfyUI-StyleGan
+### Core Custom Nodes (Install These Next)
 
-## SAM
-- https://github.com/storyicon/comfyui_segment_anything
+**Image Processing Essentials:**
+- https://github.com/ltdrdata/ComfyUI-Impact-Pack - Face detailing, segmentation, regional prompting
+- https://github.com/cubiq/ComfyUI_IPAdapter_plus - IPAdapter Plus with 37 specialized nodes
+- https://github.com/cubiq/ComfyUI_essentials - Quality-of-life improvements and missing features
 
-## API TOOLS
-- https://github.com/BadCafeCode/apitools-comfyui
+**Workflow Enhancement:**
+- https://github.com/ltdrdata/was-node-suite-comfyui - WAS Node Suite (hundreds of essential nodes)
+- https://github.com/jags111/efficiency-nodes-comfyui - Streamline your workflows
+- https://github.com/pythongosssss/ComfyUI-Custom-Scripts - UI/UX improvements
+- https://github.com/rgthree/rgthree-comfy - Power Prompt, Fast Groups, utilities
 
-## KRITA + SD
-- https://krita.org/ko/
-- https://github.com/Acly/krita-ai-diffusion
+**ControlNet & Preprocessing:**
+- https://github.com/Fannovel16/comfyui_controlnet_aux - 65+ ControlNet preprocessors
+- https://github.com/florestefano1975/comfyui-portrait-master - Advanced portrait control
 
-## INTEGRATION
-- https://github.com/open-webui/open-webui
+---
 
-## TENSORRT
-- https://github.com/comfyanonymous/ComfyUI_TensorRT
-- https://github.com/gameltb/ComfyUI_stable_fast
+## 🎬 Video Generation
 
-## EXTRA MODELS
-- https://github.com/city96/ComfyUI_ExtraModels
+### State-of-the-Art Models (2024-2025)
 
-## PROJECTS
-- https://github.com/comfyanonymous/ComfyUI
-- https://github.com/Nuked88/ComfyUI-N-Sidebar
-- https://github.com/AIFSH/ComfyUI-Hallo
-- https://github.com/TMElyralab/Comfyui-MusePose
-- https://github.com/ArtVentureX/comfyui-animatediff
-- https://github.com/Yujun-Shi/DragDiffusion
-- https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node
-- https://github.com/tencent/MimicMotion
+#### HunyuanVideo (Tencent)
+**Best for:** Professional video production
+- https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
+- 13B parameters, DiT architecture
+- 5-second videos, extendable
+- **VRAM:** Runs on 8GB minimum
+- **Status:** Native ComfyUI support (Dec 2024)
 
+#### LTX Video (Lightricks)
+**Best for:** Real-time generation
+- https://github.com/Lightricks/ComfyUI-LTXVideo
+- First real-time DiT video model
+- 24FPS at 768x512, faster than playback
+- Supports up to 60 seconds
+- **Models:** Standard (13B) & Distilled (4-8 steps only)
 
-## 📚 LEARNING RESOURCES
+#### Mochi (Genmo)
+**Best for:** Text-to-video quality
+- https://github.com/kijai/ComfyUI-MochiWrapper
+- https://github.com/logtd/ComfyUI-MochiEdit - Video editing
+- 10B parameters, best T2V quality
+- **VRAM:** 20GB required
 
-### Official Documentation
-- https://docs.comfy.org/get_started/introduction - Official ComfyUI Documentation (2024)
-- https://comfyanonymous.github.io/ComfyUI_tutorial_vn/ - Vietnamese Tutorial
-- https://github.com/comfyanonymous/ComfyUI_Blog - Official ComfyUI Blog
+#### CogVideoX (Tsinghua University)
+**Best for:** Image-to-video
+- https://github.com/kijai/ComfyUI-CogVideoXWrapper
+- Best I2V quality
+- Chinese prompt optimization
+- **VRAM:** 5-6GB sampling, 13-14GB VAE decode
 
-### Workflow Libraries & Templates
-- https://openart.ai/workflows/academy - OpenArt Workflow Academy
-- https://openart.ai/workflows/templates - OpenArt Workflow Templates
-- https://comfyworkflows.com/ - Community workflow sharing platform
-- https://www.runcomfy.com/comfyui-workflows - 200+ Curated workflows with pre-configured nodes
+### Video Tools & Utilities
+- https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite - Essential video processing
+- https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved - Advanced AnimateDiff features
+- https://github.com/kijai/ComfyUI-LivePortraitKJ - Live portrait animation
 
-### Video Tutorials & Courses
-- https://www.youtube.com/@OlivioSarikas/playlists - Olivio Sarikas ComfyUI tutorials
-- https://learn.thinkdiffusion.com/ - ThinkDiffusion learning platform
-- https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/ - Video creation guide with ComfyUI
-- https://fastcampus.com/en/products/data_online_comfyui - FastCampus Course (215 USD)
+---
 
-### Cloud Platforms
-- https://www.comflowy.com/ - Run ComfyUI workflows without setup, 100+ extensions pre-installed
-- https://www.runcomfy.com/ - Cloud ComfyUI with pre-configured nodes and models
+## 🎭 Face & Portrait
 
-## APPLE
-- https://github.com/apple/ml-4m/
-- https://4m.epfl.ch/
+### Face Swapping & Identity
 
-## FACE
-- https://github.com/facefusion/facefusion
+#### PuLID (2024)
+**Best for:** Lightning-fast consistent faces
+- https://github.com/cubiq/PuLID_ComfyUI
+- Tuning-free ID customization
+- **PuLID Flux II** - No model pollution
+- Generate in under 10 seconds
+- **Comparison:** Most versatile, good balance
 
-## DEPTH
-- https://depth-anything-v2.github.io/
-- https://github.com/DepthAnything/Depth-Anything-V2
+#### InstantID
+**Best for:** Highest quality face swapping
+- https://github.com/cubiq/ComfyUI_InstantID
+- https://github.com/nosiu/comfyui-instantId-faceswap
+- **Best Practice:** Combine with FaceDetailer + IP-Adapter
+- Most resource-intensive but best results
+- SDXL only
 
-## GANs
-- https://github.com/thanhluantrinh/LDDGAN
+#### IPAdapter FaceID V2 (2024)
+**Best for:** Integration flexibility
+- https://github.com/cubiq/ComfyUI_IPAdapter_plus
+- **Update:** Kolors FaceIDv2 added (Aug 2024)
+- Weight parameter: -1 to 5.0
+- Requires InsightFace + LoRA
 
-## 📦 MODEL DOWNLOADS
+### Face Enhancement
+- https://github.com/ltdrdata/ComfyUI-Impact-Pack - FaceDetailer for automatic refinement
+- https://github.com/Gourieff/comfyui-reactor-node - ReActor face swap
+- https://github.com/facefusion/facefusion - FaceFusion standalone tool
+
+---
+
+## 🎨 Image Enhancement
+
+### Background Removal
+
+#### BiRefNet (2024)
+**The new standard for background removal**
+- https://github.com/ZhengPeng7/BiRefNet - Original (CAAI AIR'24)
+- https://github.com/1038lab/ComfyUI-RMBG - Multi-model integration
+- **Models:** General, HR (2048x2048), Lite, Portrait
+- Best hair detail preservation
+- Commercially usable
+
+### Upscaling
+
+#### SUPIR (2024)
+**Professional-grade upscaling**
+- https://github.com/kijai/ComfyUI-SUPIR
+- Comparable to Magnific, Topaz
+- 8GB VRAM capable
+- Two models: SUPIR-v0Q (quality) & SUPIR-v0F (detail preservation)
+
+#### AuraSR
+**GAN-based enhancement**
+- https://github.com/alexisrolland/AuraSR-ComfyUI
+- GigaGAN architecture
+- Supports RGBA transparency
+- Sensitive to compression
+
+### Relighting & Effects
+
+#### IC-Light (2024)
+**Professional lighting control**
+- https://github.com/kijai/ComfyUI-IC-Light
+- https://github.com/huchenlei/ComfyUI-IC-Light-Native
+- Text & background-conditioned relighting
+- Video relighting support
+- V1: Commercial use | V2: Non-commercial
+
+### Inpainting
+
+#### PowerPaint V2 (2024)
+**Advanced inpainting solution**
+- https://github.com/nullquant/ComfyUI-BrushNet
+- BrushNet + PowerPaint integration
+- Object removal with SAM
+- Any SD 1.5 → Inpainting model
+
+#### ControlNet Union (2024)
+**Unified control solution**
+
+**For Flux:**
+- https://github.com/XLabs-AI/x-flux-comfyui
+- 7 control modes: canny, tile, depth, blur, pose, gray, low quality
+- Native ComfyUI support
+
+**For SDXL:**
+- Includes ALL control types in one model
+- Promax: +Tile Variation, Deblur, Super-resolution
+- Massive storage savings
+
+### Depth Estimation
+
+#### DepthCrafter (CVPR 2025 Highlight)
+- https://github.com/akatz-ai/ComfyUI-DepthCrafter-Nodes
+- Consistent long depth sequences
+- No optical flow/camera pose needed
+- Non-commercial academic use
+
+---
+
+## 🏗️ 3D Generation
+
+### Trellis (2024)
+**Unified 3D Asset Generation**
+- https://github.com/if-ai/ComfyUI-IF_Trellis
+- https://github.com/smthemex/ComfyUI_TRELLIS
+- **Output Formats:** Radiance Fields, 3D Gaussians, Meshes
+- **Input:** Text or image prompts
+- SLAT (Structured 3D Latents) representation
+- Editable 3D assets
+- **VRAM:** 8GB minimum
+
+### 3D Processing Suite
+- https://github.com/MrForExample/ComfyUI-3D-Pack - Comprehensive 3D processing (3DGS, NeRF)
+
+### Research Models
+- https://github.com/apple/ml-4m - Apple's 4M multimodal model
+- https://4m.epfl.ch - Interactive demos
+
+---
+
+## 🔧 Workflow Tools
+
+### Productivity & Organization
+
+**Real-time Monitoring:**
+- https://github.com/crystian/ComfyUI-Crystools - CPU, GPU, memory monitoring
+
+**Workflow Optimization:**
+- https://github.com/chrisgoringe/cg-use-everywhere - Use Everywhere nodes
+- https://github.com/BadCafeCode/masquerade-nodes-comfyui - Advanced masking
+
+**Prompting:**
+- https://github.com/ZHO-ZHO-ZHO/ComfyUI-SDXL-Prompt-Styler - Pre-set styles library
+- https://github.com/twri/sdxl_prompt_styler - Alternative templates
+- https://github.com/pythongosssss/ComfyUI-WD14-Tagger - Image analysis → prompt suggestions
+
+**Image Analysis:**
+- https://github.com/SLAPaper/ComfyUI-Image-Selector - Advanced selection
+- https://github.com/chflame163/ComfyUI_LayerStyle - Photoshop-like layers
+
+---
+
+## 📦 Model Support
 
 ### Latest Models (2024-2025)
 
-#### Flux.1 Models (2024) - Black Forest Labs
-| Model Name | Description | Download Link |
-|------------|-------------|---------------|
-| Flux.1 Dev | High quality guidance-distilled model | [Download](https://huggingface.co/black-forest-labs/FLUX.1-dev) |
-| Flux.1 Schnell | Fast step-distilled "Turbo" model | [Download](https://huggingface.co/black-forest-labs/FLUX.1-schnell) |
+#### Flux.1 (Black Forest Labs) - August 2024
+**Native ComfyUI Support** - Built-in nodes: FluxGuidance, ModelSamplingFlux
+- **Flux.1 Dev** - [Download](https://huggingface.co/black-forest-labs/FLUX.1-dev)
+  - High-quality guidance-distilled model
+- **Flux.1 Schnell** - [Download](https://huggingface.co/black-forest-labs/FLUX.1-schnell)
+  - Fast "Turbo" model (4-8 steps)
 
-#### Stable Diffusion 3 / 3.5 (2024) - Stability AI
-| Model Name | Description | Download Link |
-|------------|-------------|---------------|
-| SD3 Medium (with CLIP) | SD3 Medium with included CLIP models | [Download](https://huggingface.co/stabilityai/stable-diffusion-3-medium) |
-| SD3.5 Large | Latest SD3.5 large model (Oct 2024) | [Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) |
-| SD3.5 Medium | Latest SD3.5 medium model | [Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium) |
+**Extensions:**
+- https://github.com/XLabs-AI/x-flux-comfyui - LoRA & ControlNet integration
 
-### Classic Stable Diffusion Models
+#### Stable Diffusion 3 / 3.5 (Stability) - 2024
+- **SD3 Medium** - [Download](https://huggingface.co/stabilityai/stable-diffusion-3-medium)
+- **SD3.5 Large** (Oct 2024) - [Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)
+- **SD3.5 Medium** - [Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium)
 
-This section provides download links for various Stable Diffusion models, categorized for ease of access. Below is a table that categorizes models into SDXL, SD1.5, SD2, Anime Styles, unCLIP, VAE, Loras, T2I-Adapter, ControlNet, GLIGEN, and ESRGAN upscale models.
+#### Kolors (Kuaishou) - July 2024
+**Bilingual text-to-image excellence**
+- https://github.com/Kwai-Kolors/Kolors
+- https://github.com/MinusZoneAI/ComfyUI-Kolors-MZ
+- Trained on billions of text-image pairs
+- Chinese & English support
 
-## Models Table
+### Classic Models
 
-| Category           | Model Name                      | Download Link                                                                                                      |
-|--------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **SDXL**           | SDXL Base Model                 | [Download](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)|
-|                    | DreamShaper Lightning XL        | [Download](https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors)
-|                    | SDXL Refiner Model              | [Download](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors)|
-|                    | SDXL VAE File                   | [Download](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)|
-|                    | SDXL Turbo Model                | [Download](https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sdxl-turbo.safetensors)                        |
-| **SD1.5**          | Stable Diffusion v1.5           | [Download](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt)             |
-| **SD2**            | SD 2.1 Base Model (512)         | [Download](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.safetensors)|
-|                    | SD 2.1 Model (768)              | [Download](https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.safetensors)    |
-| **Anime Styles**   | Abyss Orange Mix 2 (Hard)       | [Download](https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix2/AbyssOrangeMix2_hard.safetensors)|
-|                    | Abyss Orange Mix 3 (A1)         | [Download](https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3A1_orangemixs.safetensors)|
-|                    | Anything v3                     | [Download](https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/anything-v3-fp16-pruned.safetensors)         |
-|                    | Waifu Diffusion 1.5             | [Download](https://huggingface.co/waifu-diffusion/wd-1-5-beta3/resolve/main/wd-illusion-fp16.safetensors)           |
-| **unCLIP Models**  | Illuminati Diffusion V1         | [Download](https://huggingface.co/comfyanonymous/illuminatiDiffusionV1_v11_unCLIP/resolve/main/illuminatiDiffusionV1_v11-unclip-h-fp16.safetensors)|
-|                    | WD 1.5 Beta 2                   | [Download](https://huggingface.co/comfyanonymous/wd-1.5-beta2_unCLIP/resolve/main/wd-1-5-beta2-aesthetic-unclip-h-fp16.safetensors)|
-| **VAE**            | VAE File (MSE)                  | [Download](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)|
-|                    | Orange Mix VAE                  | [Download](https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/VAEs/orangemix.vae.pt)                     |
-|                    | Waifu Diffusion VAE             | [Download](https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/vae/kl-f8-anime2.ckpt)                  |
-| **Loras**          | The Overcomer 8's Contrast Fix (SD2.x 768-v) | [Download](https://civitai.com/api/download/models/10350 -O ./models/loras/theovercomer8sContrastFix_sd21768.safetensors) |
-|                    | The Overcomer 8's Contrast Fix (SD1.x)       | [Download](https://civitai.com/api/download/models/10638 -O ./models/loras/theovercomer8sContrastFix_sd15.safetensors)   |
-|                    | SDXL Offset Noise Lora          | [Download](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors)|
-| **T2I-Adapter**    | Depth SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_depth_sd14v1.pth)           |
-|                    | Seg SD14v1                      | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_seg_sd14v1.pth)             |
-|                    | Sketch SD14v1                   | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_sketch_sd14v1.pth)          |
-|                    | Keypose SD14v1                  | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_keypose_sd14v1.pth)         |
-|                    | Openpose SD14v1                 | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_openpose_sd14v1.pth)        |
-|                    | Color SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_color_sd14v1.pth)           |
-|                    | Canny SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_canny_sd14v1.pth)           |
-|                    | Style SD14v1                    | [Download](https://huggingface.co/TencentARC/T2I-Adapter/resolve/main/models/t2iadapter_style_sd14v1.pth)           |                                                                |
-| **ControlNet**     | ControlNet SD15 IP2P            | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors)|
-|                    | ControlNet SD15 Shuffle         | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_shuffle_fp16.safetensors)|
-|                    | ControlNet SD15 Canny           | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors)|
-|                    | ControlNet SD15 Depth           | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1p_sd15_depth_fp16.safetensors)|
-|                    | ControlNet SD15 Inpaint         | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors)|
-|                    | ControlNet SD15 Lineart         | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors)|
-|                    | ControlNet SD15 MLSD            | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_mlsd_fp16.safetensors)|
-|                    | ControlNet SD15 Normalbae       | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_normalbae_fp16.safetensors)|
-|                    | ControlNet SD15 Openpose        | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors)|
-|                    | ControlNet SD15 Scribble        | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_scribble_fp16.safetensors)|
-|                    | ControlNet SD15 Seg             | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_seg_fp16.safetensors)|
-|                    | ControlNet SD15 Softedge        | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors)|
-|                    | ControlNet SD15 Lineart Anime   | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.safetensors)|
-|                    | ControlNet SD15 Tile            | [Download](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors)|
-| **ControlNet SDXL**| ControlNet SDXL Canny           | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors)|
-|                    | ControlNet SDXL Depth           | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors)|
-|                    | ControlNet SDXL Recolor         | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-recolor-rank256.safetensors)|
-|                    | ControlNet SDXL Sketch          | [Download](https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-sketch-rank256.safetensors)|
-| **ControlNet Preprocessor Nodes** | Fannovel16 ControlNet Preprocessors | [Download](https://github.com/Fannovel16/comfy_controlnet_preprocessors) |
-| **GLIGEN**         | GLIGEN Text-Image Model         | [Download](https://huggingface.co/gligen/gligen-text-image/resolve/main/gligen-text-image.safetensors)             |
-|                    | GLIGEN Object Detection Model   | [Download](https://huggingface.co/gligen/gligen-object-detection/resolve/main/gligen-object-detection.safetensors) |
-| **ESRGAN**         | ESRGAN 4x Upscale               | [Download](https://huggingface.co/esrgan/4x-upscale/resolve/main/4x-upscale.safetensors)                           |
-|                    | ESRGAN 8x Upscale               | [Download](https://huggingface.co/esrgan/8x-upscale/resolve/main/8x-upscale.safetensors)                           |
-| **Miscellaneous**  | Stable Diffusion ReV Animation  | [Download](https://huggingface.co/rev/animation/resolve/main/rev-animation.safetensors)                            |
-|                    | DreamBooth Custom Model         | [Download](https://huggingface.co/dreambooth/custom-model/resolve/main/dreambooth-custom-model.safetensors)        |
+<details>
+<summary><b>SDXL Models (Click to expand)</b></summary>
+
+| Model Name | Download Link |
+|------------|---------------|
+| SDXL Base | [Download](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors) |
+| SDXL Refiner | [Download](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors) |
+| DreamShaper Lightning XL | [Download](https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors) |
+| SDXL Turbo | [Download](https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sdxl-turbo.safetensors) |
+
+</details>
+
+<details>
+<summary><b>SD 1.5 & SD 2.x Models (Click to expand)</b></summary>
+
+| Model Name | Download Link |
+|------------|---------------|
+| SD v1.5 | [Download](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt) |
+| SD 2.1 Base (512) | [Download](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.safetensors) |
+| SD 2.1 (768) | [Download](https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.safetensors) |
+
+</details>
+
+### Specialized Integrations
+- https://github.com/city96/ComfyUI_ExtraModels - Extra model format support
+- https://github.com/Acly/krita-ai-diffusion - Krita integration
+- https://krita.org - Krita (open-source digital painting)
+
+---
+
+## 🎓 Learning Resources
+
+### Official Documentation
+- https://docs.comfy.org/get_started/introduction - Official ComfyUI Docs (2024)
+- https://blog.comfy.org - ComfyUI Official Blog
+- https://github.com/comfyanonymous/ComfyUI_examples - Official example workflows
+- https://github.com/Comfy-Org/workflow_templates - Built-in template workflows
+
+### Workflow Collections
+
+**Professional Workflows:**
+- https://github.com/cubiq/ComfyUI_Workflows - Well-documented, educational workflows
+- https://github.com/comfy-deploy/comfyui-workflows - Cloud & local compatible
+- https://github.com/C0nsumption/Consume-ComfyUI-Workflows - Building block workflows
+
+**Community Platforms:**
+- https://openart.ai/workflows/academy - OpenArt Academy
+- https://openart.ai/workflows/templates - Searchable templates
+- https://comfyworkflows.com - Community workflow sharing
+- https://www.runcomfy.com/comfyui-workflows - 200+ curated workflows
+
+### Video Tutorials & Courses
+- https://www.youtube.com/@OlivioSarikas/playlists - Olivio Sarikas (comprehensive)
+- https://learn.thinkdiffusion.com - ThinkDiffusion platform
+- https://fastcampus.com/en/products/data_online_comfyui - FastCampus Course ($215)
+
+### Cloud Platforms
+- https://www.comflowy.com - No setup, 100+ extensions pre-installed
+- https://www.runcomfy.com - Pre-configured nodes & models
+
+---
+
+## ⭐ Top Community Resources
+
+### Most Starred Repositories (2024)
+
+**Top Workflow Collections:**
+1. **ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO** (6.9k ⭐)
+   - https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO
+   - Comprehensive Chinese/English workflows
+   - Regular updates with latest features
+
+2. **ComfyUI-HunyuanVideoWrapper** (2.6k ⭐)
+   - https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
+   - Latest video generation tech
+
+3. **ComfyUI-AdvancedLivePortrait** (2.5k ⭐)
+   - https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait
+   - Advanced portrait animation
+
+**Essential Reading:**
+- https://github.com/liusida/top-100-comfyui - Auto-updated top 100 repos
+- https://github.com/ComfyUI-Workflow/awesome-comfyui - Curated node collection
+
+### Specialized Extensions
+
+**Vision & Language Models:**
+- https://github.com/spacepxl/ComfyUI-Florence-2 - Microsoft Florence-2
+- https://github.com/kijai/ComfyUI-Florence2 - Alternative implementation
+- https://github.com/if-ai/ComfyUI-IF_AI_tools - LLM integration
+- https://github.com/gokayfem/ComfyUI_VLM_nodes - Vision Language Models
+
+**Segmentation:**
+- https://github.com/storyicon/comfyui_segment_anything - Segment Anything Model (SAM)
+- https://github.com/DepthAnything/Depth-Anything-V2 - Depth Anything V2
+
+**Utilities:**
+- https://github.com/Acly/comfyui-tooling-nodes - Professional tooling
+- https://github.com/Acly/comfyui-inpaint-nodes - Advanced inpainting
+- https://github.com/BadCafeCode/apitools-comfyui - API integration
+
+**Animation & Motion:**
+- https://github.com/ArtVentureX/comfyui-animatediff - AnimateDiff
+- https://github.com/Yujun-Shi/DragDiffusion - DragDiffusion
+- https://github.com/TMElyralab/Comfyui-MusePose - MusePose
+- https://github.com/tencent/MimicMotion - MimicMotion
+- https://github.com/AIFSH/ComfyUI-Hallo - Hallo
+
+**Other Tools:**
+- https://github.com/spacepxl/ComfyUI-StyleGan - StyleGAN
+- https://github.com/thanhluantrinh/LDDGAN - LDDGAN
+- https://github.com/AIGODLIKE/ComfyUI-BlenderAI-node - Blender integration
+- https://github.com/Nuked88/ComfyUI-N-Sidebar - Enhanced sidebar
+- https://github.com/vivax3794/ComfyUI-Sub-Nodes - Subnode functionality
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of any amazing ComfyUI resources that should be added to this list, please:
+Contributions are welcome! If you know of amazing ComfyUI resources:
 
 1. Fork this repository
 2. Add your resource to the appropriate section
-3. Ensure the link is working and relevant
-4. Create a pull request with a clear description
+3. Include a brief description
+4. Create a pull request
 
-Please make sure your contribution:
-- Is related to ComfyUI
-- Includes a brief description
-- Has a working link
-- Fits into an existing category or suggests a new relevant one
-
-## 📝 Note on Model Links
-
-Some model links may require:
-- Hugging Face account and agreement to license terms
-- Civitai account for certain downloads
-- Sufficient disk space and VRAM for running models locally
-
-Always check system requirements before downloading large models.
-
-## 🔗 Other Awesome ComfyUI Resources
-
-- [ComfyUI Official Repository](https://github.com/comfyanonymous/ComfyUI) - The official ComfyUI project
-- [ComfyUI-Manager Registry](https://github.com/ltdrdata/ComfyUI-Manager) - Official custom node registry
-- [Awesome ComfyUI](https://github.com/lucianosb/awesome-comfyui) - Another comprehensive list
-- [ComfyUI Workflow](https://github.com/ComfyUI-Workflow/awesome-comfyui) - Workflow-focused collection
-
-## ⭐ Star History
-
-If you find this repository useful, please consider giving it a star! It helps others discover these resources.
+**Guidelines:**
+- Must be ComfyUI-related
+- Working links only
+- Brief, clear descriptions
+- Fits existing categories or propose new ones
 
 ---
 
-**Last Major Update:** November 2024
-**Maintained by:** [umitkacar](https://github.com/umitkacar)
+## 📝 Important Notes
 
-*This is a living document. ComfyUI is rapidly evolving, and this list is kept updated with the latest and greatest resources.*
+### Model Downloads
+Some models require:
+- Hugging Face account + license agreement
+- Civitai account
+- Sufficient disk space and VRAM
+
+**Always check system requirements before downloading!**
+
+### Commercial Use
+Verify licensing before commercial use:
+- ✅ Flux.1, Kolors, SDXL - Commercial friendly
+- ✅ BiRefNet, IC-Light V1 - Commercial use allowed
+- ⚠️ IC-Light V2, DepthCrafter - Non-commercial only
+- ⚠️ Trellis, some research models - Check individual licenses
+
+---
+
+## 🔗 Other Awesome Resources
+
+- [ComfyUI Official](https://github.com/comfyanonymous/ComfyUI) - The source
+- [ComfyUI-Manager Registry](https://github.com/ltdrdata/ComfyUI-Manager) - Official registry
+- [Awesome ComfyUI](https://github.com/lucianosb/awesome-comfyui) - Comprehensive list
+- [ComfyUI Workflow Collection](https://github.com/ComfyUI-Workflow/awesome-comfyui) - Workflow-focused
+
+---
+
+## 💡 Quick Start Guide
+
+**Never used ComfyUI?** Start here:
+
+1. **Install:** Download [ComfyUI Desktop V1](https://www.comfy.org/download)
+2. **Manager:** Install ComfyUI Manager (essential!)
+3. **Learn:** Watch [Olivio Sarikas tutorials](https://www.youtube.com/@OlivioSarikas)
+4. **Practice:** Try [official example workflows](https://github.com/comfyanonymous/ComfyUI_examples)
+5. **Explore:** Browse [OpenArt templates](https://openart.ai/workflows/templates)
+
+---
+
+## ⭐ Star History
+
+If this repository helped you, please star it! It helps others discover these resources.
+
+---
+
+**This is a living document.** ComfyUI evolves rapidly - this list is continuously updated with cutting-edge developments.
+
+**Questions?** Open an issue or contribute your findings!
+
