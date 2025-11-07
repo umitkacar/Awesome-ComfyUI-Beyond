@@ -40,8 +40,8 @@
 - https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite - Essential video processing tools
 - https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved - AnimateDiff evolution with advanced features
 
-### AI Upscaling (2024)
-- https://github.com/kijai/ComfyUI-SUPIR - SUPIR upscaling (comparable to Magnific, Topaz AI)
+### Image Upscaling (2024)
+- https://github.com/kijai/ComfyUI-SUPIR - SUPIR upscaling (comparable to Magnific and Topaz)
 - https://github.com/alexisrolland/AuraSR-ComfyUI - AuraSR GAN-based upscaling with GigaGAN architecture
 - https://github.com/city96/ComfyUI_ExtraModels - Additional upscale and extra models support
 
@@ -79,7 +79,7 @@
 ## SUB-NODES
 - https://github.com/vivax3794/ComfyUI-Sub-Nodes
 
-## 🤖 LLMs & VISION MODELS
+## 🤖 LLMs & Vision Models
 - https://github.com/spacepxl/ComfyUI-Florence-2 - Microsoft Florence-2 vision model
 - https://github.com/kijai/ComfyUI-Florence2 - Alternative Florence-2 implementation
 - https://github.com/if-ai/ComfyUI-IF_AI_tools - LLM integration tools for ComfyUI
@@ -135,7 +135,7 @@
 ### Video Tutorials & Courses
 - https://www.youtube.com/@OlivioSarikas/playlists - Olivio Sarikas ComfyUI tutorials
 - https://learn.thinkdiffusion.com/ - ThinkDiffusion learning platform
-- https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/ - AI Video creation guide
+- https://learn.thinkdiffusion.com/how-to-create-stunning-ai-videos-with-comfyui-rave-and-animatediff/ - Video creation guide with ComfyUI
 - https://fastcampus.com/en/products/data_online_comfyui - FastCampus Course (215 USD)
 
 ### Cloud Platforms
@@ -275,6 +275,6 @@ If you find this repository useful, please consider giving it a star! It helps o
 ---
 
 **Last Major Update:** November 2024
-**Maintained by:** Community contributions welcome
+**Maintained by:** [umitkacar](https://github.com/umitkacar)
 
-*This is a living document. ComfyUI is rapidly evolving, and we strive to keep this list updated with the latest and greatest resources.*
+*This is a living document. ComfyUI is rapidly evolving, and this list is kept updated with the latest and greatest resources.*
