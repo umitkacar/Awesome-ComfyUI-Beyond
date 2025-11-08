@@ -1,0 +1,201 @@
+# Pre-commit hooks configuration
+# See https://pre-commit.com for more information
+
+default_language_version:
+  python: python3.10
+
+default_stages: [commit, push]
+
+repos:
+  # ============================================================================
+  # Basic file checks
+  # ============================================================================
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      # Prevent giant files from being committed
+      - id: check-added-large-files
+        args: ["--maxkb=1000"]
+
+      # Check for files that would conflict in case-insensitive filesystems
+      - id: check-case-conflict
+
+      # Check for merge conflicts
+      - id: check-merge-conflict
+
+      # Check for debugger imports and breakpoints
+      - id: debug-statements
+
+      # Check YAML files
+      - id: check-yaml
+        args: ["--safe"]
+
+      # Check TOML files
+      - id: check-toml
+
+      # Check JSON files
+      - id: check-json
+
+      # Ensure files end with newline
+      - id: end-of-file-fixer
+        exclude: ^tests/fixtures/
+
+      # Remove trailing whitespace
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+
+      # Prevent committing to protected branches
+      - id: no-commit-to-branch
+        args: ["--branch", "main", "--branch", "master"]
+
+      # Fix mixed line endings
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+
+      # Check executable files have shebangs
+      - id: check-executables-have-shebangs
+
+      # Check shebang scripts are executable
+      - id: check-shebang-scripts-are-executable
+
+  # ============================================================================
+  # Python code formatting with BLACK
+  # ============================================================================
+  - repo: https://github.com/psf/black
+    rev: 23.11.0
+    hooks:
+      - id: black
+        name: Format code with Black
+        language_version: python3.10
+        args: ["--config", "pyproject.toml"]
+
+  # ============================================================================
+  # Python linting and auto-fixing with RUFF
+  # ============================================================================
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.6
+    hooks:
+      # Run the linter
+      - id: ruff
+        name: Lint with Ruff
+        args: ["--fix", "--exit-non-zero-on-fix"]
+
+      # Run the formatter (alternative to black, but we use black)
+      - id: ruff-format
+        name: Format with Ruff
+        exclude: ^(tests/|docs/)
+
+  # ============================================================================
+  # Python type checking with MYPY
+  # ============================================================================
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.7.1
+    hooks:
+      - id: mypy
+        name: Type check with MyPy
+        additional_dependencies:
+          - types-requests
+          - types-PyYAML
+        args: ["--config-file", "pyproject.toml"]
+        exclude: ^(tests/|docs/)
+
+  # ============================================================================
+  # Security checks
+  # ============================================================================
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.5
+    hooks:
+      - id: bandit
+        name: Security check with Bandit
+        args: ["-c", "pyproject.toml"]
+        additional_dependencies: ["bandit[toml]"]
+        exclude: ^tests/
+
+  # ============================================================================
+  # Upgrade Python syntax for newer versions
+  # ============================================================================
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.15.0
+    hooks:
+      - id: pyupgrade
+        name: Upgrade syntax with pyupgrade
+        args: ["--py310-plus"]
+
+  # ============================================================================
+  # Sort imports
+  # ============================================================================
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        name: Sort imports with isort
+        args: ["--profile", "black", "--filter-files"]
+
+  # ============================================================================
+  # Documentation checks
+  # ============================================================================
+  - repo: https://github.com/pycqa/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+        name: Check docstrings with pydocstyle
+        args: ["--convention=google"]
+        exclude: ^(tests/|docs/)
+        additional_dependencies: [tomli]
+
+  # ============================================================================
+  # Markdown formatting
+  # ============================================================================
+  - repo: https://github.com/executablebooks/mdformat
+    rev: 0.7.17
+    hooks:
+      - id: mdformat
+        name: Format markdown
+        additional_dependencies:
+          - mdformat-gfm
+          - mdformat-black
+        exclude: ^(CHANGELOG\.md)
+
+  # ============================================================================
+  # YAML formatting
+  # ============================================================================
+  - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: v2.11.0
+    hooks:
+      - id: pretty-format-yaml
+        name: Format YAML files
+        args: ["--autofix", "--indent", "2"]
+
+  # ============================================================================
+  # Check for common security issues
+  # ============================================================================
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets
+        name: Detect secrets
+        args: ["--baseline", ".secrets.baseline"]
+        exclude: package.lock.json
+
+  # ============================================================================
+  # Spell checking (English)
+  # ============================================================================
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.6
+    hooks:
+      - id: codespell
+        name: Check spelling
+        args: ["--ignore-words-list", "crate,nd,sav,hist"]
+        exclude: ^(tests/fixtures/|\.gitignore|\.pre-commit-config\.yaml)
+
+ci:
+  autofix_commit_msg: |
+    [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+    for more information, see https://pre-commit.ci
+  autofix_prs: true
+  autoupdate_branch: ""
+  autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
+  autoupdate_schedule: weekly
+  skip: []
+  submodules: false
