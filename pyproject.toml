@@ -81,7 +81,7 @@ Changelog = "https://github.com/umitkacar/Awesome-ComfyUI-Beyond/releases"
 path = "pyproject.toml"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["src/awesome_comfyui"]
 
 [tool.hatch.envs.default]
 dependencies = [

@@ -125,6 +125,7 @@ def my_function(param: str) -> bool:
 def test_slow_operation():
     pass
 
+
 @pytest.mark.integration
 def test_integration():
     pass
@@ -146,6 +147,7 @@ git commit -m "feat: add awesome feature"
 ```
 
 Commit message format:
+
 - `feat:` New feature
 - `fix:` Bug fix
 - `docs:` Documentation changes
@@ -191,6 +193,7 @@ awesome-comfyui-beyond/
 ## Questions?
 
 Feel free to open an issue for:
+
 - Bug reports
 - Feature requests
 - Questions about contributing

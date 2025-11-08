@@ -11,11 +11,11 @@
 
 **From cutting-edge video generation to 3D creation, this is your comprehensive guide to the ComfyUI ecosystem.**
 
-[🎬 Video Gen](#-video-generation-revolution) • [🎭 Face & Portrait](#-face--portrait-mastery) • [🎨 Image Magic](#-image-enhancement--effects) • [🏗️ 3D Creation](#️-3d-generation--depth) • [⚡ Setup](#-quick-start--essential-setup)
+[🎬 Video Gen](#-video-generation-revolution) • [🎭 Face & Portrait](#-face--portrait-mastery) • [🎨 Image Magic](#-image-enhancement--effects) • [🏗️ 3D Creation](#%EF%B8%8F-3d-generation--depth) • [⚡ Setup](#-quick-start--essential-setup)
 
 **Maintained by:** [umitkacar](https://github.com/umitkacar) | **Last Update:** November 2024
 
----
+______________________________________________________________________
 
 </div>
 
@@ -29,7 +29,7 @@
 - [🎬 Video Generation Revolution](#-video-generation-revolution)
 - [🎭 Face & Portrait Mastery](#-face--portrait-mastery)
 - [🎨 Image Enhancement & Effects](#-image-enhancement--effects)
-- [🏗️ 3D Generation & Depth](#️-3d-generation--depth)
+- [🏗️ 3D Generation & Depth](#%EF%B8%8F-3d-generation--depth)
 - [🔧 Workflow & Productivity](#-workflow--productivity-tools)
 - [📦 Latest Models (2024-2025)](#-latest-models-2024-2025)
 - [🎓 Learning Hub](#-learning-hub)
@@ -37,7 +37,7 @@
 
 </details>
 
----
+______________________________________________________________________
 
 ## 🌟 What's Hot in 2024-2025
 
@@ -47,15 +47,15 @@
 
 </div>
 
-| Category | Innovation | Status | Why It Matters |
-|----------|-----------|--------|----------------|
-| 🎬 **Video** | **HunyuanVideo** (Tencent) | ![New](https://img.shields.io/badge/CVPR%202025-Highlight-red) | 13B params, 5s videos, 8GB VRAM |
-| 🎬 **Video** | **LTX Video** (Lightricks) | ![Hot](https://img.shields.io/badge/⚡-Real--time-orange) | First real-time DiT (faster than playback!) |
-| 🎨 **Image** | **Flux.1** (Black Forest Labs) | ![Popular](https://img.shields.io/badge/⭐-Most%20Popular-yellow) | Revolutionary quality, day-1 support |
-| 🎭 **Face** | **PuLID Flux II** | ![Fast](https://img.shields.io/badge/🚀-<10s-green) | Consistent faces, no model pollution |
-| 🏗️ **3D** | **Trellis** | ![New](https://img.shields.io/badge/🆕-2024-blue) | Unified 3D: Meshes, Gaussians, NeRF |
-| 🖼️ **Removal** | **BiRefNet** | ![SOTA](https://img.shields.io/badge/🏆-SOTA-gold) | Best background removal (CAAI AIR'24) |
-| 📏 **Depth** | **DepthCrafter** | ![Award](https://img.shields.io/badge/CVPR%202025-Highlight-red) | Consistent long depth sequences |
+| Category       | Innovation                     | Status                                                                   | Why It Matters                              |
+| -------------- | ------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------- |
+| 🎬 **Video**   | **HunyuanVideo** (Tencent)     | ![New](https://img.shields.io/badge/CVPR%202025-Highlight-red)           | 13B params, 5s videos, 8GB VRAM             |
+| 🎬 **Video**   | **LTX Video** (Lightricks)     | ![Hot](https://img.shields.io/badge/%E2%9A%A1-Real--time-orange)         | First real-time DiT (faster than playback!) |
+| 🎨 **Image**   | **Flux.1** (Black Forest Labs) | ![Popular](https://img.shields.io/badge/%E2%AD%90-Most%20Popular-yellow) | Revolutionary quality, day-1 support        |
+| 🎭 **Face**    | **PuLID Flux II**              | ![Fast](https://img.shields.io/badge/%F0%9F%9A%80-%3C10s-green)          | Consistent faces, no model pollution        |
+| 🏗️ **3D**      | **Trellis**                    | ![New](https://img.shields.io/badge/%F0%9F%86%95-2024-blue)              | Unified 3D: Meshes, Gaussians, NeRF         |
+| 🖼️ **Removal** | **BiRefNet**                   | ![SOTA](https://img.shields.io/badge/%F0%9F%8F%86-SOTA-gold)             | Best background removal (CAAI AIR'24)       |
+| 📏 **Depth**   | **DepthCrafter**               | ![Award](https://img.shields.io/badge/CVPR%202025-Highlight-red)         | Consistent long depth sequences             |
 
 <div align="center">
 
@@ -70,24 +70,28 @@
 <td width="25%" align="center">
 
 ### 📦 One-Click Install
+
 No Python setup needed!
 
 </td>
 <td width="25%" align="center">
 
 ### 📚 Model Library
+
 Drag & drop models
 
 </td>
 <td width="25%" align="center">
 
 ### 🔄 Auto Updates
+
 Always stay current
 
 </td>
 <td width="25%" align="center">
 
 ### 🧩 600+ Nodes
+
 Custom Node Registry
 
 </td>
@@ -96,7 +100,7 @@ Custom Node Registry
 
 **[⬇️ Download ComfyUI Desktop](https://www.comfy.org/download)**
 
----
+______________________________________________________________________
 
 ## ⚡ Quick Start & Essential Setup
 
@@ -161,32 +165,38 @@ https://github.com/11cafe/comfyui-workspace-manager
 <td valign="top">
 
 **Impact Pack** ![Stars](https://img.shields.io/github/stars/ltdrdata/ComfyUI-Impact-Pack?style=social)
+
 ```
 github.com/ltdrdata/
 ComfyUI-Impact-Pack
 ```
+
 • Face detailing
 • Segmentation
 • Regional prompting
 
----
+______________________________________________________________________
 
 **IPAdapter Plus** ![Stars](https://img.shields.io/github/stars/cubiq/ComfyUI_IPAdapter_plus?style=social)
+
 ```
 github.com/cubiq/
 ComfyUI_IPAdapter_plus
 ```
+
 • 37 specialized nodes
 • FaceID V2 support
 • Style transfer
 
----
+______________________________________________________________________
 
 **ComfyUI Essentials**
+
 ```
 github.com/cubiq/
 ComfyUI_essentials
 ```
+
 • Missing core features
 • Quality-of-life fixes
 
@@ -194,62 +204,74 @@ ComfyUI_essentials
 <td valign="top">
 
 **WAS Node Suite**
+
 ```
 github.com/ltdrdata/
 was-node-suite-comfyui
 ```
+
 • 100+ essential nodes
 • Image processing
 • Prompt utilities
 
----
+______________________________________________________________________
 
 **Efficiency Nodes**
+
 ```
 github.com/jags111/
 efficiency-nodes-comfyui
 ```
+
 • Streamlined workflows
 • Reduced clutter
 
----
+______________________________________________________________________
 
 **rgthree-comfy**
+
 ```
 github.com/rgthree/
 rgthree-comfy
 ```
+
 • Power Prompt
 • Fast Groups
 • Utilities
 
----
+______________________________________________________________________
 
 **Custom Scripts**
+
 ```
 github.com/pythongosssss/
 ComfyUI-Custom-Scripts
 ```
+
 • UI/UX improvements
 
 </td>
 <td valign="top">
 
-**ControlNet Aux** ![Popular](https://img.shields.io/badge/⭐-Popular-yellow)
+**ControlNet Aux** ![Popular](https://img.shields.io/badge/%E2%AD%90-Popular-yellow)
+
 ```
 github.com/Fannovel16/
 comfyui_controlnet_aux
 ```
+
 • 65+ preprocessors
 • All control types
 
----
+______________________________________________________________________
 
 **Portrait Master**
+
 ```
 github.com/florestefano1975/
 comfyui-portrait-master
 ```
+
 • Advanced portrait control
 • Professional results
 
@@ -257,7 +279,7 @@ comfyui-portrait-master
 </tr>
 </table>
 
----
+______________________________________________________________________
 
 ## 🎬 Video Generation Revolution
 
@@ -271,12 +293,12 @@ comfyui-portrait-master
 
 ### 🔥 Top Performers Comparison
 
-| Model | Best For | Params | VRAM | Speed | Quality |
-|-------|----------|--------|------|-------|---------|
-| 🥇 **HunyuanVideo** | Professional Production | 13B | 8GB+ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🥈 **LTX Video** | Real-time Generation | 13B | 16GB+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| 🥉 **Mochi** | Text-to-Video Quality | 10B | 20GB | ⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🎯 **CogVideoX** | Image-to-Video | - | 14GB | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+| Model               | Best For                | Params | VRAM  | Speed      | Quality    |
+| ------------------- | ----------------------- | ------ | ----- | ---------- | ---------- |
+| 🥇 **HunyuanVideo** | Professional Production | 13B    | 8GB+  | ⭐⭐⭐     | ⭐⭐⭐⭐⭐ |
+| 🥈 **LTX Video**    | Real-time Generation    | 13B    | 16GB+ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐   |
+| 🥉 **Mochi**        | Text-to-Video Quality   | 10B    | 20GB  | ⭐⭐       | ⭐⭐⭐⭐⭐ |
+| 🎯 **CogVideoX**    | Image-to-Video          | -      | 14GB  | ⭐⭐⭐     | ⭐⭐⭐⭐   |
 
 <details open>
 <summary><b>🔴 HunyuanVideo (Tencent) - CVPR 2025 Highlight</b></summary>
@@ -287,17 +309,20 @@ comfyui-portrait-master
 **Repository:** https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
 
 #### 🎯 Key Features
+
 - ✨ 13B parameters, DiT architecture
 - ✨ Generate 5-second videos (extendable)
 - ✨ Native ComfyUI support (December 2024)
 - ✨ Custom 3D VAE compression
 
 #### ⚙️ Requirements
+
 - **Minimum VRAM:** 8GB
 - **Recommended:** 16GB+
 - **Best Quality:** 24GB+
 
 #### 🎬 Use Cases
+
 ```
 ✓ Professional video production
 ✓ Marketing content
@@ -310,24 +335,27 @@ comfyui-portrait-master
 <details>
 <summary><b>🟠 LTX Video (Lightricks) - Real-Time Generation</b></summary>
 
-![Status](https://img.shields.io/badge/Status-⚡%20Real--time-orange)
+![Status](https://img.shields.io/badge/Status-%E2%9A%A1%20Real--time-orange)
 ![Speed](https://img.shields.io/badge/Speed-Faster%20than%20playback-brightgreen)
 
 **Repository:** https://github.com/Lightricks/ComfyUI-LTXVideo
 
 #### 🎯 Key Features
+
 - 🚀 **FIRST** real-time DiT video model
 - 🚀 Generate at 24FPS (768x512)
 - 🚀 Faster than playback speed!
 - 🚀 Supports up to 60 seconds
 
 #### 📦 Model Variants
-| Model | Steps | Speed | Quality |
-|-------|-------|-------|---------|
-| Standard 13B | Normal | Fast | ⭐⭐⭐⭐ |
-| Distilled | 4-8 only | ⚡⚡⚡ | ⭐⭐⭐⭐ |
+
+| Model        | Steps    | Speed  | Quality  |
+| ------------ | -------- | ------ | -------- |
+| Standard 13B | Normal   | Fast   | ⭐⭐⭐⭐ |
+| Distilled    | 4-8 only | ⚡⚡⚡ | ⭐⭐⭐⭐ |
 
 #### ⚙️ Requirements
+
 - **VRAM:** 16GB+
 - **Quantized versions available** for 4090/5090
 
@@ -339,16 +367,19 @@ comfyui-portrait-master
 ![Quality](https://img.shields.io/badge/Quality-Best%20T2V-gold)
 
 **Repository:**
+
 - https://github.com/kijai/ComfyUI-MochiWrapper
 - https://github.com/logtd/ComfyUI-MochiEdit (Video editing)
 
 #### 🎯 Key Features
+
 - 🎨 10B parameters
 - 🎨 Best text-to-video quality
 - 🎨 Video editing capabilities
 - 🎨 AsymmDiT architecture
 
 #### ⚙️ Requirements
+
 - **VRAM:** 20GB (minimum)
 - **Originally:** 4x H100 (100GB) - huge optimization!
 
@@ -362,12 +393,14 @@ comfyui-portrait-master
 **Repository:** https://github.com/kijai/ComfyUI-CogVideoXWrapper
 
 #### 🎯 Key Features
+
 - 📸 Best image-to-video quality
 - 📸 Chinese prompt optimization
 - 📸 3D VAE + Expert Transformer
 - 📸 Efficient memory usage
 
 #### ⚙️ VRAM Usage
+
 - **Sampling:** 5-6GB
 - **VAE Decode:** 13-14GB (peak)
 - **With offloading:** Works on 8GB cards
@@ -376,13 +409,13 @@ comfyui-portrait-master
 
 ### 🛠️ Video Tools & Utilities
 
-| Tool | Purpose | Stars |
-|------|---------|-------|
-| [VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite) | Essential video processing | ![Stars](https://img.shields.io/github/stars/Kosinkadink/ComfyUI-VideoHelperSuite?style=social) |
+| Tool                                                                              | Purpose                       | Stars                                                                                              |
+| --------------------------------------------------------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------- |
+| [VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite)       | Essential video processing    | ![Stars](https://img.shields.io/github/stars/Kosinkadink/ComfyUI-VideoHelperSuite?style=social)    |
 | [AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved) | Advanced AnimateDiff features | ![Stars](https://img.shields.io/github/stars/Kosinkadink/ComfyUI-AnimateDiff-Evolved?style=social) |
-| [LivePortraitKJ](https://github.com/kijai/ComfyUI-LivePortraitKJ) | Live portrait animation | ![Stars](https://img.shields.io/github/stars/kijai/ComfyUI-LivePortraitKJ?style=social) |
+| [LivePortraitKJ](https://github.com/kijai/ComfyUI-LivePortraitKJ)                 | Live portrait animation       | ![Stars](https://img.shields.io/github/stars/kijai/ComfyUI-LivePortraitKJ?style=social)            |
 
----
+______________________________________________________________________
 
 ## 🎭 Face & Portrait Mastery
 
@@ -417,7 +450,7 @@ graph TD
 <tr>
 <td valign="top">
 
-![Speed](https://img.shields.io/badge/Speed-⚡%20<10s-brightgreen)
+![Speed](https://img.shields.io/badge/Speed-%E2%9A%A1%20%3C10s-brightgreen)
 ![Ease](https://img.shields.io/badge/Ease-Easy-green)
 
 **Best for:** Lightning-fast results
@@ -428,9 +461,10 @@ PuLID_ComfyUI
 ```
 
 **✨ Features:**
+
 - Tuning-free ID customization
 - PuLID Flux II (no pollution)
-- Generate in <10 seconds
+- Generate in \<10 seconds
 - Good quality/speed balance
 
 **⚡ Speed:** ⭐⭐⭐⭐⭐
@@ -440,7 +474,7 @@ PuLID_ComfyUI
 </td>
 <td valign="top">
 
-![Quality](https://img.shields.io/badge/Quality-🏆%20Best-gold)
+![Quality](https://img.shields.io/badge/Quality-%F0%9F%8F%86%20Best-gold)
 ![Complex](https://img.shields.io/badge/Setup-Advanced-orange)
 
 **Best for:** Maximum quality
@@ -449,15 +483,17 @@ PuLID_ComfyUI
 github.com/cubiq/
 ComfyUI_InstantID
 ```
+
 ```
 github.com/nosiu/
 comfyui-instantId-faceswap
 ```
 
 **✨ Features:**
+
 - Highest quality results
 - Combine with FaceDetailer
-- + IP-Adapter for best results
+- - IP-Adapter for best results
 - SDXL only
 
 **⚡ Speed:** ⭐⭐⭐
@@ -467,7 +503,7 @@ comfyui-instantId-faceswap
 </td>
 <td valign="top">
 
-![Flexible](https://img.shields.io/badge/Flexibility-🔧%20High-blue)
+![Flexible](https://img.shields.io/badge/Flexibility-%F0%9F%94%A7%20High-blue)
 ![Updated](https://img.shields.io/badge/Updated-2024-brightgreen)
 
 **Best for:** Integration needs
@@ -478,6 +514,7 @@ ComfyUI_IPAdapter_plus
 ```
 
 **✨ Features:**
+
 - Kolors FaceIDv2 (Aug 2024)
 - Weight: -1 to 5.0
 - Requires InsightFace + LoRA
@@ -493,13 +530,13 @@ ComfyUI_IPAdapter_plus
 
 ### 🌟 Face Enhancement Tools
 
-| Tool | Purpose | Key Feature |
-|------|---------|-------------|
+| Tool                                                              | Purpose      | Key Feature               |
+| ----------------------------------------------------------------- | ------------ | ------------------------- |
 | 🎨 [Impact Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack) | FaceDetailer | Automatic face refinement |
-| 🔄 [ReActor](https://github.com/Gourieff/comfyui-reactor-node) | Face Swap | Easy face swapping |
-| 🎭 [FaceFusion](https://github.com/facefusion/facefusion) | Standalone | Professional face fusion |
+| 🔄 [ReActor](https://github.com/Gourieff/comfyui-reactor-node)    | Face Swap    | Easy face swapping        |
+| 🎭 [FaceFusion](https://github.com/facefusion/facefusion)         | Standalone   | Professional face fusion  |
 
----
+______________________________________________________________________
 
 ## 🎨 Image Enhancement & Effects
 
@@ -511,20 +548,22 @@ ComfyUI_IPAdapter_plus
 
 ### 🖼️ Background Removal - BiRefNet
 
-![SOTA](https://img.shields.io/badge/🏆-State%20of%20the%20Art-gold)
+![SOTA](https://img.shields.io/badge/%F0%9F%8F%86-State%20of%20the%20Art-gold)
 ![Award](https://img.shields.io/badge/CAAI%20AIR-2024-red)
-![Commercial](https://img.shields.io/badge/License-✅%20Commercial-green)
+![Commercial](https://img.shields.io/badge/License-%E2%9C%85%20Commercial-green)
 
 <table>
 <tr>
 <td width="50%">
 
 **Original Implementation:**
+
 ```
 github.com/ZhengPeng7/BiRefNet
 ```
 
 **Multi-Model Integration:**
+
 ```
 github.com/1038lab/ComfyUI-RMBG
 ```
@@ -533,6 +572,7 @@ github.com/1038lab/ComfyUI-RMBG
 <td width="50%">
 
 **🎯 Why BiRefNet?**
+
 - 🏆 Best hair detail preservation
 - 🏆 Multiple model variants
 - 🏆 Commercially usable
@@ -544,14 +584,14 @@ github.com/1038lab/ComfyUI-RMBG
 
 #### 📦 Model Variants
 
-| Model | Resolution | Use Case |
-|-------|-----------|----------|
-| General | Standard | Everyday use |
-| HR | 2048x2048 | High resolution |
-| Lite | Fast | Speed priority |
-| Portrait | Optimized | Human portraits |
+| Model    | Resolution | Use Case        |
+| -------- | ---------- | --------------- |
+| General  | Standard   | Everyday use    |
+| HR       | 2048x2048  | High resolution |
+| Lite     | Fast       | Speed priority  |
+| Portrait | Optimized  | Human portraits |
 
----
+______________________________________________________________________
 
 ### 📈 Upscaling Solutions
 
@@ -570,15 +610,18 @@ github.com/kijai/ComfyUI-SUPIR
 ```
 
 **💎 Features:**
+
 - Comparable to Magnific, Topaz
 - Works on 8GB VRAM
 - Two model variants
 
 **📦 Models:**
+
 - **SUPIR-v0Q:** Maximum quality
 - **SUPIR-v0F:** Detail preservation
 
 **⭐ Rating:**
+
 - Quality: ⭐⭐⭐⭐⭐
 - Speed: ⭐⭐⭐
 - VRAM: ⭐⭐⭐⭐
@@ -594,6 +637,7 @@ AuraSR-ComfyUI
 ```
 
 **💎 Features:**
+
 - GigaGAN architecture
 - RGBA transparency support
 - Advanced detail enhancement
@@ -602,6 +646,7 @@ AuraSR-ComfyUI
 Sensitive to image compression
 
 **⭐ Rating:**
+
 - Quality: ⭐⭐⭐⭐
 - Speed: ⭐⭐⭐⭐
 - VRAM: ⭐⭐⭐
@@ -610,7 +655,7 @@ Sensitive to image compression
 </tr>
 </table>
 
----
+______________________________________________________________________
 
 ### 💡 IC-Light - Professional Relighting
 
@@ -622,9 +667,11 @@ Sensitive to image compression
 <td width="50%">
 
 **Implementations:**
+
 ```
 github.com/kijai/ComfyUI-IC-Light
 ```
+
 ```
 github.com/huchenlei/
 ComfyUI-IC-Light-Native
@@ -634,6 +681,7 @@ ComfyUI-IC-Light-Native
 <td width="50%">
 
 **🎬 Capabilities:**
+
 - ✨ Text-conditioned relighting
 - ✨ Background-conditioned
 - ✨ Video relighting support
@@ -645,23 +693,24 @@ ComfyUI-IC-Light-Native
 
 #### 📜 Licensing
 
-| Version | License | Commercial Use |
-|---------|---------|----------------|
-| V1 | Open | ✅ Allowed |
-| V2 | Restricted | ❌ Non-commercial only |
+| Version | License    | Commercial Use         |
+| ------- | ---------- | ---------------------- |
+| V1      | Open       | ✅ Allowed             |
+| V2      | Restricted | ❌ Non-commercial only |
 
----
+______________________________________________________________________
 
 ### 🎨 Advanced Inpainting
 
 <details>
 <summary><b>PowerPaint V2 + BrushNet (2024)</b></summary>
 
-![New](https://img.shields.io/badge/🆕-2024-blue)
+![New](https://img.shields.io/badge/%F0%9F%86%95-2024-blue)
 
 **Repository:** https://github.com/nullquant/ComfyUI-BrushNet
 
 #### 🎯 Features
+
 - 🖌️ BrushNet + PowerPaint integration
 - 🖌️ Object removal with SAM
 - 🖌️ Convert any SD 1.5 to inpainting model
@@ -675,25 +724,30 @@ ComfyUI-IC-Light-Native
 ![Unified](https://img.shields.io/badge/Type-All%20in%20One-orange)
 
 #### For Flux
+
 ```
 github.com/XLabs-AI/x-flux-comfyui
 ```
+
 **7 Control Modes:** canny, tile, depth, blur, pose, gray, low quality
 
 #### For SDXL
+
 **Includes ALL control types in ONE model!**
+
 - ✅ Massive storage savings
 - ✅ Promax: +Tile Variation, Deblur, Super-resolution
 
 </details>
 
----
+______________________________________________________________________
 
 ### 📏 Depth Estimation
 
 <div align="center">
 
 ### DepthCrafter
+
 ![CVPR](https://img.shields.io/badge/CVPR%202025-Highlight-red)
 ![Academic](https://img.shields.io/badge/Use-Non--commercial-orange)
 
@@ -702,17 +756,19 @@ github.com/XLabs-AI/x-flux-comfyui
 **Repository:** https://github.com/akatz-ai/ComfyUI-DepthCrafter-Nodes
 
 **🎯 Revolutionary Features:**
+
 - 🎬 Consistent long depth sequences
 - 🎬 No optical flow needed
 - 🎬 No camera pose required
 - 🎬 Video editing & post-production
 
 **⚙️ Configurable Parameters:**
+
 - Window size: 75-110 (recommended)
 - Overlap for longer videos
 - CPU offload saves +25% VRAM
 
----
+______________________________________________________________________
 
 ## 🏗️ 3D Generation & Depth
 
@@ -720,7 +776,7 @@ github.com/XLabs-AI/x-flux-comfyui
 
 ### Trellis - Unified 3D Asset Generation
 
-![New](https://img.shields.io/badge/🆕-2024-blue)
+![New](https://img.shields.io/badge/%F0%9F%86%95-2024-blue)
 ![3D](https://img.shields.io/badge/Type-Unified%203D-purple)
 
 </div>
@@ -730,10 +786,12 @@ github.com/XLabs-AI/x-flux-comfyui
 <td width="50%">
 
 **Repositories:**
+
 ```
 github.com/if-ai/
 ComfyUI-IF_Trellis
 ```
+
 ```
 github.com/smthemex/
 ComfyUI_TRELLIS
@@ -743,6 +801,7 @@ ComfyUI_TRELLIS
 <td width="50%">
 
 **🎯 Output Formats:**
+
 - 🏗️ Radiance Fields
 - 🏗️ 3D Gaussians
 - 🏗️ Meshes
@@ -756,22 +815,24 @@ ComfyUI_TRELLIS
 ### 🔬 Technology
 
 **SLAT Representation** (Structured 3D Latents)
+
 - Unified format for all 3D types
 - Editable 3D assets
 - Scalable & versatile
 
 ### ⚙️ Requirements
+
 - **Minimum VRAM:** 8GB
 - **Recommended:** 16GB+
 
 ### 🛠️ Additional 3D Tools
 
-| Tool | Purpose |
-|------|---------|
+| Tool                                                               | Purpose                                  |
+| ------------------------------------------------------------------ | ---------------------------------------- |
 | [ComfyUI-3D-Pack](https://github.com/MrForExample/ComfyUI-3D-Pack) | Comprehensive 3D processing (3DGS, NeRF) |
-| [Apple ml-4m](https://github.com/apple/ml-4m) | Multimodal model research |
+| [Apple ml-4m](https://github.com/apple/ml-4m)                      | Multimodal model research                |
 
----
+______________________________________________________________________
 
 ## 🔧 Workflow & Productivity Tools
 
@@ -787,11 +848,14 @@ ComfyUI_TRELLIS
 <td valign="top">
 
 **Crystools**
+
 ```
 github.com/crystian/
 ComfyUI-Crystools
 ```
+
 Real-time monitoring:
+
 - 📊 CPU usage
 - 📊 GPU usage
 - 📊 Memory stats
@@ -800,48 +864,56 @@ Real-time monitoring:
 <td valign="top">
 
 **Use Everywhere**
+
 ```
 github.com/chrisgoringe/
 cg-use-everywhere
 ```
+
 - 🔌 Cleaner workflows
 - 🔌 Better organization
 
 **Masquerade**
+
 ```
 github.com/BadCafeCode/
 masquerade-nodes-comfyui
 ```
+
 - 🎭 Advanced masking
 
 </td>
 <td valign="top">
 
 **SDXL Prompt Styler**
+
 ```
 github.com/ZHO-ZHO-ZHO/
 ComfyUI-SDXL-Prompt-Styler
 ```
+
 - 📝 Pre-set styles
 
 **WD14 Tagger**
+
 ```
 github.com/pythongosssss/
 ComfyUI-WD14-Tagger
 ```
+
 - 🏷️ Image → Prompts
 
 </td>
 </tr>
 </table>
 
----
+______________________________________________________________________
 
 ## 📦 Latest Models (2024-2025)
 
 ### 🔥 Flux.1 (Black Forest Labs) - August 2024
 
-![Popular](https://img.shields.io/badge/⭐-Most%20Popular-yellow)
+![Popular](https://img.shields.io/badge/%E2%AD%90-Most%20Popular-yellow)
 ![Native](https://img.shields.io/badge/Support-Native%20ComfyUI-green)
 
 **Built-in Nodes:** `FluxGuidance`, `ModelSamplingFlux`
@@ -851,11 +923,13 @@ ComfyUI-WD14-Tagger
 <td width="50%">
 
 #### Flux.1 Dev
+
 ![Quality](https://img.shields.io/badge/Quality-High-brightgreen)
 
 [📥 Download](https://huggingface.co/black-forest-labs/FLUX.1-dev)
 
 **Features:**
+
 - High-quality guidance-distilled
 - Best for quality results
 
@@ -863,11 +937,13 @@ ComfyUI-WD14-Tagger
 <td width="50%">
 
 #### Flux.1 Schnell
+
 ![Speed](https://img.shields.io/badge/Speed-Turbo-orange)
 
 [📥 Download](https://huggingface.co/black-forest-labs/FLUX.1-schnell)
 
 **Features:**
+
 - Fast "Turbo" model
 - 4-8 steps only
 
@@ -876,21 +952,22 @@ ComfyUI-WD14-Tagger
 </table>
 
 **Extensions:**
+
 - [x-flux-comfyui](https://github.com/XLabs-AI/x-flux-comfyui) - LoRA & ControlNet integration
 
----
+______________________________________________________________________
 
 ### 🌈 Stable Diffusion 3 / 3.5 (2024)
 
 ![Official](https://img.shields.io/badge/Stability%20AI-Official-blue)
 
-| Model | Release | Download |
-|-------|---------|----------|
-| **SD3 Medium** | June 2024 | [📥 Download](https://huggingface.co/stabilityai/stable-diffusion-3-medium) |
-| **SD3.5 Large** | Oct 2024 | [📥 Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) |
-| **SD3.5 Medium** | Oct 2024 | [📥 Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium) |
+| Model            | Release   | Download                                                                      |
+| ---------------- | --------- | ----------------------------------------------------------------------------- |
+| **SD3 Medium**   | June 2024 | [📥 Download](https://huggingface.co/stabilityai/stable-diffusion-3-medium)   |
+| **SD3.5 Large**  | Oct 2024  | [📥 Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)  |
+| **SD3.5 Medium** | Oct 2024  | [📥 Download](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium) |
 
----
+______________________________________________________________________
 
 ### 🎌 Kolors (Kuaishou) - July 2024
 
@@ -901,35 +978,36 @@ ComfyUI-WD14-Tagger
 **ComfyUI:** https://github.com/MinusZoneAI/ComfyUI-Kolors-MZ
 
 **🌟 Features:**
+
 - Bilingual excellence (Chinese & English)
 - Trained on billions of text-image pairs
 - KlingAI project creators
 
----
+______________________________________________________________________
 
 <details>
 <summary><b>📦 Classic Models (SDXL, SD 1.5, SD 2.x) - Click to expand</b></summary>
 
 ### SDXL Models
 
-| Model | Download |
-|-------|----------|
-| SDXL Base | [📥](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors) |
-| SDXL Refiner | [📥](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors) |
-| DreamShaper Lightning XL | [📥](https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors) |
-| SDXL Turbo | [📥](https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sdxl-turbo.safetensors) |
+| Model                    | Download                                                                                                            |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| SDXL Base                | [📥](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors)       |
+| SDXL Refiner             | [📥](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors) |
+| DreamShaper Lightning XL | [📥](https://huggingface.co/Lykon/dreamshaper-xl-lightning/resolve/main/DreamShaperXL_Lightning.safetensors)        |
+| SDXL Turbo               | [📥](https://huggingface.co/stabilityai/sdxl-turbo/resolve/main/sdxl-turbo.safetensors)                             |
 
 ### SD 1.5 & 2.x Models
 
-| Model | Download |
-|-------|----------|
-| SD v1.5 | [📥](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt) |
+| Model        | Download                                                                                                        |
+| ------------ | --------------------------------------------------------------------------------------------------------------- |
+| SD v1.5      | [📥](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt)               |
 | SD 2.1 (512) | [📥](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.safetensors) |
-| SD 2.1 (768) | [📥](https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.safetensors) |
+| SD 2.1 (768) | [📥](https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.safetensors)      |
 
 </details>
 
----
+______________________________________________________________________
 
 ## 🎓 Learning Hub
 
@@ -940,6 +1018,7 @@ ComfyUI-WD14-Tagger
 <td width="25%" align="center">
 
 ### 📖 Docs
+
 [Official Guide](https://docs.comfy.org/get_started/introduction)
 
 2024 Updated
@@ -948,6 +1027,7 @@ ComfyUI-WD14-Tagger
 <td width="25%" align="center">
 
 ### 📝 Blog
+
 [ComfyUI Blog](https://blog.comfy.org)
 
 Latest news
@@ -956,6 +1036,7 @@ Latest news
 <td width="25%" align="center">
 
 ### 🎯 Examples
+
 [Official Workflows](https://github.com/comfyanonymous/ComfyUI_examples)
 
 Learn by doing
@@ -964,6 +1045,7 @@ Learn by doing
 <td width="25%" align="center">
 
 ### 🎨 Templates
+
 [Built-in Templates](https://github.com/Comfy-Org/workflow_templates)
 
 Ready to use
@@ -972,28 +1054,28 @@ Ready to use
 </tr>
 </table>
 
----
+______________________________________________________________________
 
 ### 🎬 Video Tutorials & Courses
 
-| Resource | Type | Level | Cost |
-|----------|------|-------|------|
-| [Olivio Sarikas](https://www.youtube.com/@OlivioSarikas/playlists) | YouTube | All levels | Free |
-| [ThinkDiffusion](https://learn.thinkdiffusion.com) | Platform | Beginner-Advanced | Free |
-| [FastCampus](https://fastcampus.com/en/products/data_online_comfyui) | Course | Comprehensive | $215 |
+| Resource                                                             | Type     | Level             | Cost |
+| -------------------------------------------------------------------- | -------- | ----------------- | ---- |
+| [Olivio Sarikas](https://www.youtube.com/@OlivioSarikas/playlists)   | YouTube  | All levels        | Free |
+| [ThinkDiffusion](https://learn.thinkdiffusion.com)                   | Platform | Beginner-Advanced | Free |
+| [FastCampus](https://fastcampus.com/en/products/data_online_comfyui) | Course   | Comprehensive     | $215 |
 
----
+______________________________________________________________________
 
 ### 🌐 Community Platforms
 
-| Platform | Workflows | Features |
-|----------|-----------|----------|
-| [OpenArt Academy](https://openart.ai/workflows/academy) | Educational | Structured learning |
-| [OpenArt Templates](https://openart.ai/workflows/templates) | 1000+ | Searchable |
-| [ComfyWorkflows](https://comfyworkflows.com) | Community | Sharing platform |
-| [RunComfy](https://www.runcomfy.com/comfyui-workflows) | 200+ | Curated |
+| Platform                                                    | Workflows   | Features            |
+| ----------------------------------------------------------- | ----------- | ------------------- |
+| [OpenArt Academy](https://openart.ai/workflows/academy)     | Educational | Structured learning |
+| [OpenArt Templates](https://openart.ai/workflows/templates) | 1000+       | Searchable          |
+| [ComfyWorkflows](https://comfyworkflows.com)                | Community   | Sharing platform    |
+| [RunComfy](https://www.runcomfy.com/comfyui-workflows)      | 200+        | Curated             |
 
----
+______________________________________________________________________
 
 ### ☁️ Cloud Platforms
 
@@ -1006,6 +1088,7 @@ Ready to use
 <td valign="top">
 
 **Features:**
+
 - ✅ No setup required
 - ✅ 100+ extensions pre-installed
 - ✅ Cloud & local models
@@ -1017,6 +1100,7 @@ Ready to use
 <td valign="top">
 
 **Features:**
+
 - ✅ Pre-configured nodes
 - ✅ Pre-loaded models
 - ✅ 200+ workflows ready
@@ -1028,26 +1112,26 @@ Ready to use
 </tr>
 </table>
 
----
+______________________________________________________________________
 
 ## ⭐ Community Favorites & Top Repos
 
 ### 🏆 Most Starred (2024)
 
-| Rank | Repository | Stars | Description |
-|------|-----------|-------|-------------|
-| 🥇 | [ZHO's Workflows](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO) | ![Stars](https://img.shields.io/github/stars/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO?style=social) | Comprehensive Chinese/English workflows |
-| 🥈 | [HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper) | ![Stars](https://img.shields.io/github/stars/kijai/ComfyUI-HunyuanVideoWrapper?style=social) | Latest video generation |
-| 🥉 | [AdvancedLivePortrait](https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait) | ![Stars](https://img.shields.io/github/stars/PowerHouseMan/ComfyUI-AdvancedLivePortrait?style=social) | Advanced portrait animation |
+| Rank | Repository                                                                            | Stars                                                                                                 | Description                             |
+| ---- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| 🥇   | [ZHO's Workflows](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO)               | ![Stars](https://img.shields.io/github/stars/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO?style=social)          | Comprehensive Chinese/English workflows |
+| 🥈   | [HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper)           | ![Stars](https://img.shields.io/github/stars/kijai/ComfyUI-HunyuanVideoWrapper?style=social)          | Latest video generation                 |
+| 🥉   | [AdvancedLivePortrait](https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait) | ![Stars](https://img.shields.io/github/stars/PowerHouseMan/ComfyUI-AdvancedLivePortrait?style=social) | Advanced portrait animation             |
 
 ### 🔍 Essential Resources
 
-| Resource | Purpose |
-|----------|---------|
-| [Top 100 ComfyUI](https://github.com/liusida/top-100-comfyui) | Auto-updated ranking of top repos |
-| [Awesome ComfyUI](https://github.com/ComfyUI-Workflow/awesome-comfyui) | Curated node collection |
+| Resource                                                               | Purpose                           |
+| ---------------------------------------------------------------------- | --------------------------------- |
+| [Top 100 ComfyUI](https://github.com/liusida/top-100-comfyui)          | Auto-updated ranking of top repos |
+| [Awesome ComfyUI](https://github.com/ComfyUI-Workflow/awesome-comfyui) | Curated node collection           |
 
----
+______________________________________________________________________
 
 ### 🎭 Specialized Extensions
 
@@ -1092,7 +1176,7 @@ Ready to use
 
 </details>
 
----
+______________________________________________________________________
 
 ## 🤝 Contributing
 
@@ -1107,25 +1191,27 @@ Ready to use
 **How to contribute:**
 
 1. 🍴 Fork this repository
-2. ➕ Add your resource to appropriate section
-3. 📝 Include brief, clear description
-4. ✅ Verify links work
-5. 🚀 Create pull request
+1. ➕ Add your resource to appropriate section
+1. 📝 Include brief, clear description
+1. ✅ Verify links work
+1. 🚀 Create pull request
 
 **Guidelines:**
+
 - ✅ ComfyUI-related only
 - ✅ 2024-2025 content preferred
 - ✅ Working links required
 - ✅ Clear descriptions
 - ✅ Proper categorization
 
----
+______________________________________________________________________
 
 ## 📝 Important Notes
 
 ### 💾 Model Downloads
 
 **Requirements may include:**
+
 - Hugging Face account + license agreement
 - Civitai account
 - Sufficient disk space (10-100GB per model)
@@ -1133,7 +1219,7 @@ Ready to use
 
 ⚠️ **Always check system requirements before downloading!**
 
----
+______________________________________________________________________
 
 ### 📜 Commercial Use Licensing
 
@@ -1164,7 +1250,7 @@ Ready to use
 </tr>
 </table>
 
----
+______________________________________________________________________
 
 ## 🔗 More Awesome Resources
 
@@ -1173,7 +1259,7 @@ Ready to use
 - [Awesome ComfyUI](https://github.com/lucianosb/awesome-comfyui) - Another great list
 - [ComfyUI Workflows](https://github.com/ComfyUI-Workflow/awesome-comfyui) - Workflow focused
 
----
+______________________________________________________________________
 
 <div align="center">
 
@@ -1190,7 +1276,7 @@ Ready to use
 ✅ 6. Join the community!
 ```
 
----
+______________________________________________________________________
 
 ## ⭐ Star History
 
@@ -1200,7 +1286,7 @@ Ready to use
 
 **It helps others discover these resources.**
 
----
+______________________________________________________________________
 
 ### 📊 Repository Stats
 
@@ -1208,7 +1294,7 @@ Ready to use
 ![Repo Size](https://img.shields.io/github/repo-size/umitkacar/Awesome-ComfyUI-Beyond?style=flat-square)
 ![License](https://img.shields.io/github/license/umitkacar/Awesome-ComfyUI-Beyond?style=flat-square)
 
----
+______________________________________________________________________
 
 **This is a living document.** ComfyUI evolves rapidly - this list is continuously updated with cutting-edge developments.
 

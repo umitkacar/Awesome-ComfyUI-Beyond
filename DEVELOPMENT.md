@@ -63,6 +63,7 @@ pre-commit autoupdate
 ```
 
 **Included hooks:**
+
 - ✅ Black (formatting)
 - ✅ Ruff (linting)
 - ✅ MyPy (type checking)
@@ -192,11 +193,14 @@ class TestMyFunction:
         with pytest.raises(ValueError):
             my_function("invalid")
 
-    @pytest.mark.parametrize("input,expected", [
-        ("a", 1),
-        ("b", 2),
-        ("c", 3),
-    ])
+    @pytest.mark.parametrize(
+        "input,expected",
+        [
+            ("a", 1),
+            ("b", 2),
+            ("c", 3),
+        ],
+    )
     def test_parametrized(self, input, expected):
         """Test multiple scenarios."""
         assert my_function(input) == expected
@@ -207,6 +211,7 @@ class TestMyFunction:
 ```python
 # tests/conftest.py
 
+
 @pytest.fixture
 def sample_data():
     """Provide sample data for tests."""
@@ -214,6 +219,7 @@ def sample_data():
 
 
 # tests/test_feature.py
+
 
 def test_with_fixture(sample_data):
     """Test using fixture."""
@@ -231,6 +237,7 @@ def test_with_fixture(sample_data):
 ### pyproject.toml
 
 Central configuration for:
+
 - Package metadata
 - Build system (Hatch)
 - Dependencies
@@ -239,6 +246,7 @@ Central configuration for:
 ### .pre-commit-config.yaml
 
 Pre-commit hook configurations:
+
 - Which tools to run
 - When to run them
 - Tool-specific arguments
@@ -246,6 +254,7 @@ Pre-commit hook configurations:
 ### .editorconfig
 
 Editor configuration for:
+
 - Indentation
 - Line endings
 - Character encoding
@@ -256,33 +265,38 @@ Editor configuration for:
 ### On Push/PR
 
 1. **Lint & Format Check**
+
    - Black formatting
    - Ruff linting
    - MyPy type checking
 
-2. **Security Scan**
+1. **Security Scan**
+
    - Bandit security analysis
    - Dependency vulnerability check
 
-3. **Test Suite**
+1. **Test Suite**
+
    - Python 3.10, 3.11, 3.12
    - Ubuntu, Windows, macOS
    - Coverage reporting
 
-4. **Build Package**
+1. **Build Package**
+
    - Package building
    - Metadata validation
 
-5. **Documentation**
+1. **Documentation**
+
    - Docs building
    - Link checking
 
 ### On Release (Tag)
 
 1. Build package
-2. Publish to PyPI
-3. Create GitHub Release
-4. Deploy documentation
+1. Publish to PyPI
+1. Create GitHub Release
+1. Deploy documentation
 
 ## 💡 Tips & Tricks
 
@@ -303,13 +317,15 @@ pytest --random-order
 
 ```python
 # Add breakpoint
-import pdb; pdb.set_trace()
+import pdb
+
+pdb.set_trace()
 
 # Or use pytest's built-in
 breakpoint()
 
 # Run pytest with pdb
-pytest --pdb
+pytest - -pdb
 ```
 
 ### Performance

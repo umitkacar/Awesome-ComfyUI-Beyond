@@ -4,8 +4,7 @@ from typing import Any
 
 
 def validate_url(url: str) -> bool:
-    """
-    Validate if a string is a valid URL.
+    """Validate if a string is a valid URL.
 
     Args:
         url: The URL string to validate
@@ -23,8 +22,7 @@ def validate_url(url: str) -> bool:
 
 
 def parse_resource(resource: dict[str, Any]) -> dict[str, str]:
-    """
-    Parse and validate a resource dictionary.
+    """Parse and validate a resource dictionary.
 
     Args:
         resource: Dictionary containing resource information
