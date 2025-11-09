@@ -116,6 +116,49 @@ mypy src
 mypy src --html-report mypy-report
 ```
 
+### Security Tools
+
+#### Bandit
+
+Security linter for Python code.
+
+**Configuration:** `pyproject.toml` → `[tool.bandit]`
+
+```bash
+# Scan source code
+bandit -r src
+
+# With configuration
+bandit -c pyproject.toml -r src
+```
+
+#### pip-audit
+
+Audit Python dependencies for known vulnerabilities.
+
+```bash
+# Scan installed packages
+pip-audit
+
+# Scan with descriptions
+pip-audit --desc
+
+# Check specific requirements file
+pip-audit -r requirements.txt
+```
+
+#### Safety
+
+Check Python dependencies for known security vulnerabilities.
+
+```bash
+# Check dependencies
+safety check
+
+# Generate JSON report
+safety check --json
+```
+
 ### Pytest
 
 Testing framework.
@@ -353,8 +396,14 @@ make update
 # Run CI checks locally
 make ci
 
-# Security audit
+# Security scanning (Bandit)
 make security
+
+# Dependency vulnerability audit (pip-audit)
+make audit
+
+# Safety vulnerability check
+make safety-check
 
 # Build package
 make build

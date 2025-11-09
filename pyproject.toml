@@ -45,15 +45,22 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
+    # Testing tools
     "pytest>=7.4.0",
     "pytest-cov>=4.1.0",
     "pytest-xdist>=3.3.1",
     "pytest-asyncio>=0.21.1",
     "coverage[toml]>=7.3.0",
+    # Code quality and linting
     "pre-commit>=3.5.0",
     "ruff>=0.1.0",
     "black>=23.10.0",
     "mypy>=1.6.0",
+    # Security auditing
+    "pip-audit>=2.6.0",
+    "bandit>=1.7.5",
+    "safety>=2.3.5",
+    # Type stubs
     "types-requests>=2.31.0",
     "types-PyYAML>=6.0.12",
 ]
@@ -91,6 +98,9 @@ dependencies = [
     "ruff>=0.1.0",
     "black>=23.10.0",
     "mypy>=1.6.0",
+    "pip-audit>=2.6.0",
+    "bandit>=1.7.5",
+    "safety>=2.3.5",
 ]
 
 [tool.hatch.envs.default.scripts]
@@ -102,10 +112,14 @@ lint-fix = "ruff check --fix {args:src tests}"
 format = "black {args:src tests}"
 format-check = "black --check {args:src tests}"
 type-check = "mypy {args:src}"
+audit = "pip-audit"
+security = "bandit -c pyproject.toml -r src"
+safety-check = "safety check --json"
 check-all = [
     "format-check",
     "lint",
     "type-check",
+    "security",
     "test-cov",
 ]
 

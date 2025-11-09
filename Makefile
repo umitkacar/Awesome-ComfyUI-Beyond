@@ -90,10 +90,17 @@ update: ## Update dependencies
 	pre-commit autoupdate
 	pip install --upgrade hatch
 
+audit: ## Run dependency audit
+	@echo '$(BLUE)Running dependency audit...$(NC)'
+	hatch run audit
+
 security: ## Run security checks
 	@echo '$(BLUE)Running security checks...$(NC)'
-	bandit -r src -c pyproject.toml
-	safety check
+	hatch run security
+
+safety-check: ## Run safety vulnerability checks
+	@echo '$(BLUE)Running safety checks...$(NC)'
+	hatch run safety-check
 
 init-dev: install pre-commit ## Initialize development environment
 	@echo '$(GREEN)Development environment initialized!$(NC)'
