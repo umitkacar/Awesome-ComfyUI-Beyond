@@ -1,0 +1,324 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "awesome-comfyui-beyond"
+version = "2.0.0"
+description = "The ultimate curated collection of ComfyUI resources for 2024-2025"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Umit Kacar", email = "umitkacar@users.noreply.github.com"},
+]
+maintainers = [
+    {name = "Umit Kacar", email = "umitkacar@users.noreply.github.com"},
+]
+keywords = [
+    "comfyui",
+    "stable-diffusion",
+    "ai-art",
+    "image-generation",
+    "video-generation",
+    "flux",
+    "sdxl",
+    "awesome-list",
+    "resources",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "pyyaml>=6.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    # Testing tools
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-xdist>=3.3.1",
+    "pytest-asyncio>=0.21.1",
+    "coverage[toml]>=7.3.0",
+    # Code quality and linting
+    "pre-commit>=3.5.0",
+    "ruff>=0.1.0",
+    "black>=23.10.0",
+    "mypy>=1.6.0",
+    # Security auditing
+    "pip-audit>=2.6.0",
+    "bandit>=1.7.5",
+    "safety>=2.3.5",
+    # Type stubs
+    "types-requests>=2.31.0",
+    "types-PyYAML>=6.0.12",
+]
+docs = [
+    "mkdocs>=1.5.0",
+    "mkdocs-material>=9.4.0",
+    "mkdocstrings[python]>=0.23.0",
+]
+all = [
+    "awesome-comfyui-beyond[dev,docs]",
+]
+
+[project.urls]
+Homepage = "https://github.com/umitkacar/Awesome-ComfyUI-Beyond"
+Documentation = "https://github.com/umitkacar/Awesome-ComfyUI-Beyond"
+Repository = "https://github.com/umitkacar/Awesome-ComfyUI-Beyond"
+Issues = "https://github.com/umitkacar/Awesome-ComfyUI-Beyond/issues"
+Changelog = "https://github.com/umitkacar/Awesome-ComfyUI-Beyond/releases"
+
+# =============================================================================
+# HATCH CONFIGURATION
+# =============================================================================
+
+[tool.hatch.version]
+path = "pyproject.toml"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/awesome_comfyui"]
+
+[tool.hatch.envs.default]
+dependencies = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-xdist>=3.3.1",
+    "ruff>=0.1.0",
+    "black>=23.10.0",
+    "mypy>=1.6.0",
+    "pip-audit>=2.6.0",
+    "bandit>=1.7.5",
+    "safety>=2.3.5",
+]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "pytest --cov=src --cov-report=html --cov-report=term-missing {args:tests}"
+test-parallel = "pytest -n auto {args:tests}"
+lint = "ruff check {args:src tests}"
+lint-fix = "ruff check --fix {args:src tests}"
+format = "black {args:src tests}"
+format-check = "black --check {args:src tests}"
+type-check = "mypy {args:src}"
+audit = "pip-audit"
+security = "bandit -c pyproject.toml -r src"
+safety-check = "safety check --json"
+check-all = [
+    "format-check",
+    "lint",
+    "type-check",
+    "security",
+    "test-cov",
+]
+
+[tool.hatch.envs.docs]
+features = ["docs"]
+
+[tool.hatch.envs.docs.scripts]
+build = "mkdocs build --clean --strict"
+serve = "mkdocs serve --dev-addr localhost:8000"
+
+# =============================================================================
+# RUFF CONFIGURATION (Ultra-fast Python linter)
+# =============================================================================
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+indent-width = 4
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "UP",     # pyupgrade
+    "ARG",    # flake8-unused-arguments
+    "SIM",    # flake8-simplify
+    "TCH",    # flake8-type-checking
+    "PTH",    # flake8-use-pathlib
+    "ERA",    # eradicate (commented-out code)
+    "PL",     # pylint
+    "RUF",    # ruff-specific rules
+]
+ignore = [
+    "E501",   # line too long (handled by black)
+    "B008",   # do not perform function calls in argument defaults
+    "PLR0913", # too many arguments
+    "PLR2004", # magic value comparison
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]  # unused imports
+"tests/**/*" = [
+    "S101",   # use of assert
+    "ARG",    # unused function arguments
+    "PLR2004", # magic values
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["awesome_comfyui"]
+force-sort-within-sections = true
+split-on-trailing-comma = false
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+# =============================================================================
+# BLACK CONFIGURATION (Code formatter)
+# =============================================================================
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hatch
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+# =============================================================================
+# MYPY CONFIGURATION (Static type checker)
+# =============================================================================
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = false
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_optional = true
+strict_equality = true
+show_error_codes = true
+show_column_numbers = true
+pretty = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+
+# =============================================================================
+# PYTEST CONFIGURATION
+# =============================================================================
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+    "--showlocals",
+    "--tb=short",
+    "-ra",
+    "--cov-report=term-missing:skip-covered",
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+]
+filterwarnings = [
+    "error",
+    "ignore::UserWarning",
+    "ignore::DeprecationWarning",
+]
+
+# =============================================================================
+# COVERAGE CONFIGURATION
+# =============================================================================
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "*/site-packages/*",
+    "*/.venv/*",
+]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if TYPE_CHECKING:",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "@abstractmethod",
+    "@abc.abstractmethod",
+]
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+# =============================================================================
+# BANDIT CONFIGURATION (Security linter)
+# =============================================================================
+
+[tool.bandit]
+targets = ["src"]
+exclude_dirs = ["tests", ".venv"]
+skips = ["B101"]  # assert_used
+
+# =============================================================================
+# PYRIGHT CONFIGURATION (Alternative type checker)
+# =============================================================================
+
+[tool.pyright]
+include = ["src"]
+exclude = [
+    "**/__pycache__",
+    ".venv",
+    "build",
+    "dist",
+]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.10"
+pythonPlatform = "All"
+typeCheckingMode = "basic"
+reportMissingImports = true
+reportMissingTypeStubs = false
